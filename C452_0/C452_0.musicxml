@@ -7,7 +7,7 @@
     <rights>IREMUS</rights>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-03-09</encoding-date>
+      <encoding-date>2023-03-28</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -194,51 +194,19 @@
   </credit>
   <credit page="16">
     <credit-type>page number</credit-type>
-    <credit-words default-x="70" default-y="1579" font-size="12" valign="top">16</credit-words>
+    <credit-words font-size="12">16</credit-words>
   </credit>
   <credit page="16">
     <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les marins de Kermor</credit-words>
+    <credit-words font-size="12" justify="center">Les marins de Kermor</credit-words>
   </credit>
   <credit page="17">
     <credit-type>page number</credit-type>
-    <credit-words default-x="1091" default-y="1579" font-size="12" halign="right" valign="top">17</credit-words>
+    <credit-words font-size="12">17</credit-words>
   </credit>
   <credit page="17">
     <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les marins de Kermor</credit-words>
-  </credit>
-  <credit page="18">
-    <credit-type>page number</credit-type>
-    <credit-words default-x="70" default-y="1579" font-size="12" valign="top">18</credit-words>
-  </credit>
-  <credit page="18">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les marins de Kermor</credit-words>
-  </credit>
-  <credit page="19">
-    <credit-type>page number</credit-type>
-    <credit-words default-x="1091" default-y="1579" font-size="12" halign="right" valign="top">19</credit-words>
-  </credit>
-  <credit page="19">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les marins de Kermor</credit-words>
-  </credit>
-  <credit page="20">
-    <credit-type>page number</credit-type>
-    <credit-words default-x="70" default-y="1579" font-size="12" valign="top">20</credit-words>
-  </credit>
-  <credit page="20">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les marins de Kermor</credit-words>
-  </credit>
-  <credit page="21">
-    <credit-type>page number</credit-type>
-    <credit-words default-x="1091" default-y="1579" font-size="12" halign="right" valign="top">21</credit-words>
-  </credit>
-  <credit page="21">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les marins de Kermor</credit-words>
+    <credit-words font-size="12" justify="center">Les marins de Kermor</credit-words>
   </credit>
   <part-list>
     <score-part id="P1">
@@ -405,7 +373,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="8">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -446,7 +414,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="13">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -504,7 +472,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="20">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -586,7 +554,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="30">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -611,7 +579,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="33">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -841,7 +809,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="61">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <attributes>
         <key>
           <fifths>-2</fifths>
@@ -884,7 +852,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="65">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>24</duration>
@@ -950,7 +918,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="73">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>24</duration>
@@ -1024,7 +992,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="82">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>24</duration>
@@ -1057,7 +1025,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="86">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>24</duration>
@@ -1254,9 +1222,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="110" width="254">
-      <print new-page="yes" page-number="10">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>34</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -1292,7 +1260,7 @@
       </note>
       <direction placement="above">
         <direction-type>
-          <dynamics default-x="111" default-y="29" halign="center">
+          <dynamics default-x="111" default-y="28" halign="center">
             <p/>
           </dynamics>
         </direction-type>
@@ -1439,9 +1407,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="116" width="214">
-      <print new-system="yes">
+      <print new-page="yes" page-number="8">
         <system-layout>
-          <system-distance>350</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <note default-x="91">
@@ -1501,7 +1469,7 @@
         <type>quarter</type>
         <stem default-y="-55">down</stem>
         <notations>
-          <slur bezier-x="17" bezier-y="14" default-x="7" default-y="-6" number="1" placement="above" type="start"/>
+          <slur bezier-x="16" bezier-y="14" default-x="7" default-y="-6" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>end</syllabic>
@@ -1520,7 +1488,7 @@
         <type>quarter</type>
         <stem default-y="-40">down</stem>
         <notations>
-          <slur bezier-x="-20" bezier-y="7" default-x="30" default-y="5" number="1" type="stop"/>
+          <slur bezier-x="-20" bezier-y="7" default-x="30" default-y="6" number="1" type="stop"/>
         </notations>
       </note>
       <note default-x="95">
@@ -1566,7 +1534,7 @@
         <type>quarter</type>
         <stem default-y="-30">down</stem>
         <notations>
-          <slur bezier-x="-25" bezier-y="5" default-x="37" default-y="16" number="1" type="stop"/>
+          <slur bezier-x="-25" bezier-y="5" default-x="37" default-y="15" number="1" type="stop"/>
         </notations>
       </note>
       <note default-x="107">
@@ -1678,9 +1646,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="123" width="221">
-      <print new-page="yes" page-number="11">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-85</system-distance>
         </system-layout>
       </print>
       <note default-x="91">
@@ -1928,7 +1896,7 @@
     <measure number="130" width="209">
       <print new-system="yes">
         <system-layout>
-          <system-distance>350</system-distance>
+          <system-distance>-86</system-distance>
         </system-layout>
       </print>
       <note default-x="91">
@@ -2058,7 +2026,7 @@
         <type>quarter</type>
         <stem default-y="-55">down</stem>
         <notations>
-          <slur bezier-x="20" bezier-y="24" default-x="7" default-y="-6" number="1" placement="above" type="start"/>
+          <slur bezier-x="19" bezier-y="24" default-x="7" default-y="-7" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -2148,7 +2116,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="138" width="171">
-      <print new-page="yes" page-number="12">
+      <print new-page="yes" page-number="9">
         <system-layout>
           <top-system-distance>33</top-system-distance>
         </system-layout>
@@ -2341,7 +2309,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="151">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>24</duration>
@@ -2374,7 +2342,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="155">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>24</duration>
@@ -2448,7 +2416,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="164">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>24</duration>
@@ -2525,7 +2493,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="173">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <attributes>
         <key>
           <cancel>-2</cancel>
@@ -2566,7 +2534,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="176">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -2772,7 +2740,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="201">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -2805,7 +2773,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="205">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -2855,7 +2823,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="211">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -2921,7 +2889,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="219">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -2954,7 +2922,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="223">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>32</duration>
@@ -3005,7 +2973,7 @@
     <measure number="229" width="253">
       <print new-system="yes">
         <system-layout>
-          <system-distance>470</system-distance>
+          <system-distance>34</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -3093,7 +3061,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="235" width="232">
-      <print new-page="yes" page-number="20">
+      <print new-page="yes" page-number="15">
         <system-layout>
           <top-system-distance>33</top-system-distance>
         </system-layout>
@@ -3456,7 +3424,7 @@
     <measure number="241" width="258">
       <print new-system="yes">
         <system-layout>
-          <system-distance>350</system-distance>
+          <system-distance>-85</system-distance>
         </system-layout>
       </print>
       <note default-x="89">
@@ -3618,9 +3586,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="246" width="238">
-      <print new-page="yes" page-number="21">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-86</system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -3703,7 +3671,7 @@
         <stem default-y="-50">down</stem>
         <notations>
           <slur bezier-x="16" bezier-y="18" default-x="7" default-y="-5" number="1" placement="above" type="start"/>
-          <slur bezier-x="70" bezier-y="52" default-x="7" default-y="-5" number="2" placement="above" type="start"/>
+          <slur bezier-x="70" bezier-y="51" default-x="7" default-y="-5" number="2" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>single</syllabic>
@@ -3742,7 +3710,7 @@
         <accidental>flat</accidental>
         <stem default-y="-40">down</stem>
         <notations>
-          <slur bezier-x="22" bezier-y="18" default-x="7" default-y="5" number="1" placement="above" type="start"/>
+          <slur bezier-x="22" bezier-y="18" default-x="7" default-y="6" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -3760,7 +3728,7 @@
         <accidental>natural</accidental>
         <stem default-y="-40">down</stem>
         <notations>
-          <slur bezier-x="-22" bezier-y="18" default-x="7" default-y="5" number="1" type="stop"/>
+          <slur bezier-x="-22" bezier-y="18" default-x="7" default-y="6" number="1" type="stop"/>
         </notations>
       </note>
     </measure>
@@ -4036,7 +4004,7 @@
     <measure number="4" width="240">
       <print new-system="yes">
         <system-layout>
-          <system-distance>412</system-distance>
+          <system-distance>6</system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -4239,9 +4207,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="8" width="318">
-      <print new-page="yes" page-number="2">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>5</system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -4493,9 +4461,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="13" width="339">
-      <print new-system="yes">
+      <print new-page="yes" page-number="2">
         <system-layout>
-          <system-distance>95</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -4738,7 +4706,7 @@
     <measure number="17" width="318">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note>
@@ -4923,9 +4891,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="20" width="303">
-      <print new-page="yes" page-number="3">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="81">
@@ -5204,7 +5172,7 @@
     <measure number="25" width="260">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <note default-x="79">
@@ -5286,7 +5254,7 @@
         <type>quarter</type>
         <stem default-y="-15">up</stem>
         <notations>
-          <slur bezier-x="-4" bezier-y="15" default-x="7" default-y="-25" number="1" type="stop"/>
+          <slur bezier-x="-5" bezier-y="15" default-x="7" default-y="-25" number="1" type="stop"/>
         </notations>
         <lyric number="1">
           <extend type="stop"/>
@@ -5458,15 +5426,15 @@
         <stem default-y="-50">down</stem>
         <notations>
           <tied type="start"/>
-          <slur bezier-x="-20" bezier-y="24" default-x="7" default-y="-5" number="1" type="stop"/>
+          <slur bezier-x="-20" bezier-y="24" default-x="7" default-y="-4" number="1" type="stop"/>
         </notations>
       </note>
     </measure>
     <!--=======================================================-->
     <measure number="30" width="311">
-      <print new-system="yes">
+      <print new-page="yes" page-number="3">
         <system-layout>
-          <system-distance>94</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -5615,9 +5583,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="33" width="408">
-      <print new-page="yes" page-number="4">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="80">
@@ -5811,7 +5779,7 @@
     <measure number="36" width="388">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -6011,7 +5979,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-7.5">up</stem>
+        <stem default-y="-7">up</stem>
         <beam number="1">end</beam>
         <lyric number="1">
           <extend type="stop"/>
@@ -6050,7 +6018,7 @@
     <measure number="39" width="205">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -6262,7 +6230,7 @@
         <type>quarter</type>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x="12" bezier-y="15" default-x="6" default-y="-5" number="2" placement="above" type="start"/>
+          <slur bezier-x="11" bezier-y="15" default-x="6" default-y="-5" number="2" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>end</syllabic>
@@ -6280,7 +6248,7 @@
         <type>quarter</type>
         <stem default-y="-45">down</stem>
         <notations>
-          <slur bezier-x="-15" bezier-y="10" default-x="7" default-y="3" number="2" type="stop"/>
+          <slur bezier-x="-16" bezier-y="10" default-x="7" default-y="3" number="2" type="stop"/>
         </notations>
         <lyric number="1">
           <extend type="stop"/>
@@ -6320,7 +6288,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="44" width="285">
-      <print new-page="yes" page-number="5">
+      <print new-page="yes" page-number="4">
         <system-layout>
           <top-system-distance>33</top-system-distance>
         </system-layout>
@@ -6558,7 +6526,7 @@
     <measure number="48" width="281">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -6871,7 +6839,7 @@
     <measure number="53" width="197">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -7198,9 +7166,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="61" width="321">
-      <print new-page="yes" page-number="6">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -7471,9 +7439,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="65" width="306">
-      <print new-system="yes">
+      <print new-page="yes" page-number="5">
         <system-layout>
-          <system-distance>95</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -7724,7 +7692,7 @@
     <measure number="69" width="346">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -7942,9 +7910,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="73" width="250">
-      <print new-page="yes" page-number="7">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -8307,7 +8275,7 @@
     <measure number="78" width="294">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -8539,9 +8507,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="82" width="296">
-      <print new-system="yes">
+      <print new-page="yes" page-number="6">
         <system-layout>
-          <system-distance>94</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <direction placement="below">
@@ -8797,9 +8765,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="86" width="306">
-      <print new-page="yes" page-number="8">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -9050,7 +9018,7 @@
     <measure number="90" width="344">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -9275,7 +9243,7 @@
     <measure number="94" width="271">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -9513,7 +9481,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="100" width="250">
-      <print new-page="yes" page-number="9">
+      <print new-page="yes" page-number="7">
         <system-layout>
           <top-system-distance>33</top-system-distance>
         </system-layout>
@@ -9831,7 +9799,7 @@
     <measure number="105" width="277">
       <print new-system="yes">
         <system-layout>
-          <system-distance>590</system-distance>
+          <system-distance>35</system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -9911,7 +9879,7 @@
         <type>quarter</type>
         <stem default-y="-55">down</stem>
         <notations>
-          <slur bezier-x="16" bezier-y="27" default-x="7" default-y="-7" number="1" placement="above" type="start"/>
+          <slur bezier-x="15" bezier-y="27" default-x="7" default-y="-7" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>single</syllabic>
@@ -9936,7 +9904,7 @@
         <stem default-y="-20">down</stem>
         <notations>
           <tied type="start"/>
-          <slur bezier-x="-30" bezier-y="10" default-x="7" default-y="25" number="1" type="stop"/>
+          <slur bezier-x="-30" bezier-y="10" default-x="7" default-y="26" number="1" type="stop"/>
         </notations>
       </note>
     </measure>
@@ -9972,7 +9940,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="110" width="254">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>72</duration>
@@ -10021,7 +9989,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="116" width="214">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>72</duration>
@@ -10104,7 +10072,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="123" width="221">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="92">
         <pitch>
           <step>C</step>
@@ -10596,7 +10564,7 @@
     <measure number="147" width="296">
       <print new-system="yes">
         <system-layout>
-          <system-distance>470</system-distance>
+          <system-distance>35</system-distance>
         </system-layout>
       </print>
       <direction directive="yes" placement="above">
@@ -10857,9 +10825,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="151" width="298">
-      <print new-page="yes" page-number="13">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>34</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -11108,9 +11076,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="155" width="350">
-      <print new-system="yes">
+      <print new-page="yes" page-number="10">
         <system-layout>
-          <system-distance>95</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -11336,7 +11304,7 @@
     <measure number="159" width="257">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -11709,9 +11677,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="164" width="295">
-      <print new-page="yes" page-number="14">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="91">
@@ -12032,7 +12000,7 @@
     <measure number="168" width="239">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <note default-x="88">
@@ -12298,9 +12266,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="173" width="414">
-      <print new-system="yes">
+      <print new-page="yes" page-number="11">
         <system-layout>
-          <system-distance>94</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -12491,9 +12459,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="176" width="329">
-      <print new-page="yes" page-number="15">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="81">
@@ -12734,7 +12702,7 @@
     <measure number="180" width="343">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -12955,7 +12923,7 @@
     <measure number="184" width="236">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <note default-x="91">
@@ -13181,7 +13149,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="188" width="283">
-      <print new-page="yes" page-number="16">
+      <print new-page="yes" page-number="12">
         <system-layout>
           <top-system-distance>33</top-system-distance>
         </system-layout>
@@ -13383,7 +13351,7 @@
     <measure number="192" width="368">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -13632,7 +13600,7 @@
     <measure number="196" width="224">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -13839,7 +13807,7 @@
         <type>quarter</type>
         <stem default-y="-15">up</stem>
         <notations>
-          <slur bezier-x="-17" bezier-y="-8" default-x="7" default-y="-60" number="1" type="stop"/>
+          <slur bezier-x="-17" bezier-y="-7" default-x="7" default-y="-60" number="1" type="stop"/>
         </notations>
         <lyric number="1">
           <extend type="stop"/>
@@ -13926,9 +13894,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="201" width="302">
-      <print new-page="yes" page-number="17">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <note default-x="81">
@@ -14016,7 +13984,7 @@
         <stem default-y="-50">down</stem>
         <notations>
           <tied type="start"/>
-          <slur bezier-x="-23" bezier-y="25" default-x="7" default-y="-5" number="1" type="stop"/>
+          <slur bezier-x="-23" bezier-y="25" default-x="7" default-y="-4" number="1" type="stop"/>
         </notations>
       </note>
     </measure>
@@ -14120,9 +14088,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="205" width="398">
-      <print new-system="yes">
+      <print new-page="yes" page-number="13">
         <system-layout>
-          <system-distance>95</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <note default-x="80">
@@ -14288,7 +14256,7 @@
     <measure number="208" width="402">
       <print new-system="yes">
         <system-layout>
-          <system-distance>94</system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -14495,9 +14463,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="211" width="408">
-      <print new-page="yes" page-number="18">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>-70</system-distance>
         </system-layout>
       </print>
       <note default-x="84">
@@ -14569,7 +14537,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-7.5">up</stem>
+        <stem default-y="-7">up</stem>
         <beam number="1">end</beam>
         <lyric number="1">
           <extend type="stop"/>
@@ -14753,7 +14721,7 @@
     <measure number="215" width="274">
       <print new-system="yes">
         <system-layout>
-          <system-distance>95</system-distance>
+          <system-distance>-71</system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -14821,7 +14789,7 @@
         <type>quarter</type>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x="11" bezier-y="14" default-x="7" default-y="-5" number="2" placement="above" type="start"/>
+          <slur bezier-x="10" bezier-y="14" default-x="7" default-y="-5" number="2" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>end</syllabic>
@@ -14869,7 +14837,7 @@
         <type>quarter</type>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x2="10" bezier-y2="74" default-x="-362" default-y="4" number="1" type="continue"/>
+          <slur bezier-x2="10" bezier-y2="74" default-x="-362" default-y="3" number="1" type="continue"/>
           <slur bezier-x="-75" bezier-y="31" default-x="5" default-y="-5" number="1" type="stop"/>
         </notations>
         <lyric default-y="-80" number="1">
@@ -14973,9 +14941,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="219" width="359">
-      <print new-system="yes">
+      <print new-page="yes" page-number="14">
         <system-layout>
-          <system-distance>94</system-distance>
+          <top-system-distance>33</top-system-distance>
         </system-layout>
       </print>
       <note default-x="81">
@@ -15272,9 +15240,9 @@
     </measure>
     <!--=======================================================-->
     <measure number="223" width="240">
-      <print new-page="yes" page-number="19">
+      <print new-system="yes">
         <system-layout>
-          <top-system-distance>33</top-system-distance>
+          <system-distance>35</system-distance>
         </system-layout>
       </print>
       <note default-x="78">
@@ -16060,7 +16028,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="246" width="238">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>C</step>
@@ -16651,7 +16619,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="8" width="318">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>B</step>
@@ -16865,7 +16833,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="13" width="339">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="78">
         <pitch>
           <step>D</step>
@@ -17291,7 +17259,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="20" width="303">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="81">
         <pitch>
           <step>G</step>
@@ -17655,7 +17623,7 @@
         <type>quarter</type>
         <stem default-y="-15">up</stem>
         <notations>
-          <slur bezier-x="-4" bezier-y="15" default-x="7" default-y="-25" number="1" type="stop"/>
+          <slur bezier-x="-5" bezier-y="15" default-x="7" default-y="-25" number="1" type="stop"/>
         </notations>
         <lyric number="1">
           <extend type="stop"/>
@@ -17809,7 +17777,7 @@
         <accidental>natural</accidental>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x="22" bezier-y="22" default-x="6" default-y="-5" number="1" placement="above" type="start"/>
+          <slur bezier-x="22" bezier-y="22" default-x="6" default-y="-4" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -17834,7 +17802,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="30" width="311">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <direction placement="above">
         <direction-type>
           <wedge default-y="24" spread="15" type="diminuendo"/>
@@ -18031,7 +17999,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="33" width="408">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="80">
         <pitch>
           <step>A</step>
@@ -18418,7 +18386,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-7.5">up</stem>
+        <stem default-y="-7">up</stem>
         <beam number="1">end</beam>
         <lyric number="1">
           <extend type="stop"/>
@@ -18694,7 +18662,7 @@
         <type>quarter</type>
         <stem default-y="5">up</stem>
         <notations>
-          <slur bezier-x="-98" bezier-y="53" default-x="7" default-y="-4" number="1" type="stop"/>
+          <slur bezier-x="-98" bezier-y="54" default-x="7" default-y="-5" number="1" type="stop"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -19472,7 +19440,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="61" width="321">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <attributes>
         <key>
           <fifths>-2</fifths>
@@ -19738,7 +19706,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="65" width="306">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="88">
         <pitch>
           <step>A</step>
@@ -20174,7 +20142,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="73" width="250">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <rest/>
         <duration>24</duration>
@@ -20615,7 +20583,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="82" width="296">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="88" default-y="-73" halign="center">
@@ -20872,7 +20840,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="86" width="306">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <pitch>
           <step>A</step>
@@ -21940,7 +21908,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="110" width="254">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="91">
         <pitch>
           <step>B</step>
@@ -22095,7 +22063,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="116" width="214">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="92">
         <pitch>
           <step>B</step>
@@ -22236,7 +22204,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="123" width="221">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="92">
         <pitch>
           <step>G</step>
@@ -22941,7 +22909,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="151" width="298">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <pitch>
           <step>A</step>
@@ -23157,7 +23125,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="155" width="350">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="88">
         <pitch>
           <step>B</step>
@@ -23751,7 +23719,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="164" width="295">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="91">
         <pitch>
           <step>C</step>
@@ -24351,7 +24319,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="173" width="414">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <attributes>
         <key>
           <cancel>-2</cancel>
@@ -24479,7 +24447,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="176" width="329">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="81">
         <pitch>
           <step>A</step>
@@ -25819,7 +25787,7 @@
         <type>quarter</type>
         <stem default-y="-15">up</stem>
         <notations>
-          <slur bezier-x="-17" bezier-y="-8" default-x="7" default-y="-60" number="1" type="stop"/>
+          <slur bezier-x="-17" bezier-y="-7" default-x="7" default-y="-60" number="1" type="stop"/>
         </notations>
         <lyric number="1">
           <extend type="stop"/>
@@ -25904,7 +25872,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="201" width="302">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="81">
         <pitch>
           <step>A</step>
@@ -25974,7 +25942,7 @@
         <accidental>natural</accidental>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x="25" bezier-y="24" default-x="7" default-y="-5" number="1" placement="above" type="start"/>
+          <slur bezier-x="25" bezier-y="24" default-x="7" default-y="-4" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -26131,7 +26099,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="205" width="398">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="81">
         <pitch>
           <step>C</step>
@@ -26497,7 +26465,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="211" width="408">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="84">
         <pitch>
           <step>C</step>
@@ -26567,7 +26535,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-7.5">up</stem>
+        <stem default-y="-7">up</stem>
         <beam number="1">end</beam>
         <lyric number="1">
           <extend type="stop"/>
@@ -26890,7 +26858,7 @@
         <type>half</type>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x="-27" bezier-y="15" default-x="6" default-y="-5" number="1" type="stop"/>
+          <slur bezier-x="-27" bezier-y="15" default-x="6" default-y="-4" number="1" type="stop"/>
         </notations>
       </note>
     </measure>
@@ -26966,7 +26934,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="219" width="359">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="81">
         <pitch>
           <step>A</step>
@@ -27265,7 +27233,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="223" width="240">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>F</step>
@@ -28075,7 +28043,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="246" width="238">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>A</step>
@@ -28085,7 +28053,7 @@
         <voice>1</voice>
         <type>whole</type>
         <notations>
-          <slur bezier-x="-2" bezier-y="13" default-x="8" default-y="-15" number="1" type="stop"/>
+          <slur bezier-x="-2" bezier-y="13" default-x="8" default-y="-14" number="1" type="stop"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -28688,7 +28656,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="8" width="318">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>G</step>
@@ -28953,7 +28921,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="13" width="339">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="78">
         <pitch>
           <step>D</step>
@@ -29208,7 +29176,7 @@
       </note>
       <direction placement="above">
         <direction-type>
-          <dynamics default-x="77" default-y="26" halign="center">
+          <dynamics default-x="77" default-y="27" halign="center">
             <p/>
           </dynamics>
         </direction-type>
@@ -29374,7 +29342,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="20" width="303">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="81">
         <pitch>
           <step>E</step>
@@ -29868,7 +29836,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="30" width="311">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <direction placement="above">
         <direction-type>
           <wedge default-y="20" spread="15" type="diminuendo"/>
@@ -30069,7 +30037,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="33" width="408">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <rest/>
         <duration>48</duration>
@@ -30510,7 +30478,7 @@
         <type>quarter</type>
         <stem default-y="-35">down</stem>
         <notations>
-          <slur bezier-x="100" bezier-y="40" default-x="6" default-y="10" number="1" placement="above" type="start"/>
+          <slur bezier-x="100" bezier-y="41" default-x="6" default-y="10" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -30704,7 +30672,7 @@
         <type>quarter</type>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x="-98" bezier-y="44" default-x="6" default-y="-4" number="1" type="stop"/>
+          <slur bezier-x="-98" bezier-y="46" default-x="6" default-y="-5" number="1" type="stop"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -31526,7 +31494,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="61" width="321">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <attributes>
         <key>
           <fifths>-2</fifths>
@@ -31537,7 +31505,7 @@
           <beat-type>4</beat-type>
         </time>
       </attributes>
-      <direction placement="above">
+      <direction placement="below">
         <direction-type>
           <dynamics default-x="116" default-y="0" halign="center">
             <f/>
@@ -31793,7 +31761,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="65" width="306">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="88">
         <pitch>
           <step>F</step>
@@ -32224,7 +32192,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="73" width="250">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <rest/>
         <duration>24</duration>
@@ -32579,7 +32547,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="82" width="296">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="88" default-y="-85" halign="center">
@@ -32836,7 +32804,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="86" width="306">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <pitch>
           <step>F</step>
@@ -33304,7 +33272,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-22">down</stem>
+        <stem default-y="-22.5">down</stem>
         <beam number="1">end</beam>
       </note>
       <note default-x="205">
@@ -33332,7 +33300,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-22">down</stem>
+        <stem default-y="-22.5">down</stem>
         <beam number="1">end</beam>
         <lyric number="1">
           <extend type="stop"/>
@@ -33366,7 +33334,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-22">down</stem>
+        <stem default-y="-22.5">down</stem>
         <beam number="1">end</beam>
         <lyric number="1">
           <extend type="stop"/>
@@ -33939,7 +33907,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="110" width="254">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note>
         <rest measure="yes"/>
         <duration>72</duration>
@@ -34056,7 +34024,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="116" width="214">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="91">
         <pitch>
           <step>F</step>
@@ -34219,7 +34187,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="123" width="221">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="92">
         <pitch>
           <step>E</step>
@@ -34940,7 +34908,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="151" width="298">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <pitch>
           <step>F</step>
@@ -35154,7 +35122,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="155" width="350">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="88">
         <pitch>
           <step>G</step>
@@ -35746,7 +35714,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="164" width="295">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="91">
         <pitch>
           <step>C</step>
@@ -36329,7 +36297,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="173" width="414">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <attributes>
         <key>
           <cancel>-2</cancel>
@@ -36439,7 +36407,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="176" width="329">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="81">
         <pitch>
           <step>A</step>
@@ -37390,7 +37358,7 @@
       <print new-system="yes"/>
       <direction placement="above">
         <direction-type>
-          <dynamics default-x="84" default-y="28" halign="center">
+          <dynamics default-x="84" default-y="29" halign="center">
             <p/>
           </dynamics>
         </direction-type>
@@ -37909,7 +37877,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="201" width="302">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <direction placement="above">
         <direction-type>
           <wedge default-y="22" type="crescendo"/>
@@ -38129,7 +38097,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="205" width="398">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="81">
         <pitch>
           <step>B</step>
@@ -38458,7 +38426,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="211" width="408">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="84">
         <pitch>
           <step>C</step>
@@ -38823,7 +38791,7 @@
         <type>quarter</type>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x2="-4" bezier-y2="66" default-x="-362" default-y="4" number="1" type="continue"/>
+          <slur bezier-x2="-4" bezier-y2="66" default-x="-362" default-y="3" number="1" type="continue"/>
           <slur bezier-x="-75" bezier-y="31" default-x="5" default-y="-5" number="1" type="stop"/>
         </notations>
         <lyric default-y="-80" number="1">
@@ -38836,7 +38804,7 @@
     <measure number="217" width="255">
       <direction placement="above">
         <direction-type>
-          <dynamics default-x="30" default-y="24" halign="center">
+          <dynamics default-x="30" default-y="25" halign="center">
             <pp/>
           </dynamics>
         </direction-type>
@@ -39009,7 +38977,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="219" width="359">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="81">
         <pitch>
           <step>C</step>
@@ -39236,7 +39204,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="223" width="240">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>F</step>
@@ -40033,7 +40001,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="246" width="238">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>F</step>
@@ -40601,7 +40569,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="8" width="318">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>C</step>
@@ -40852,7 +40820,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="13" width="339">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="78">
         <pitch>
           <step>D</step>
@@ -41091,7 +41059,7 @@
         <type>quarter</type>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x="12" bezier-y="15" default-x="7" default-y="-5" number="1" placement="above" type="start"/>
+          <slur bezier-x="11" bezier-y="15" default-x="7" default-y="-5" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -41190,7 +41158,7 @@
         <type>whole</type>
         <notations>
           <tied type="start"/>
-          <slur bezier-x="-58" bezier-y="33" default-x="9" default-y="-14" number="1" type="stop"/>
+          <slur bezier-x="-58" bezier-y="33" default-x="9" default-y="-15" number="1" type="stop"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>middle</syllabic>
@@ -41218,7 +41186,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="20" width="303">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="81">
         <pitch>
           <step>C</step>
@@ -41740,7 +41708,7 @@
         <type>quarter</type>
         <stem default-y="5">up</stem>
         <notations>
-          <slur bezier-x="-5" bezier-y="-21" default-x="45" default-y="-41" number="1" type="stop"/>
+          <slur bezier-x="-5" bezier-y="-21" default-x="45" default-y="-42" number="1" type="stop"/>
         </notations>
       </note>
       <note default-x="114">
@@ -41760,7 +41728,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="30" width="311">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <direction placement="above">
         <direction-type>
           <wedge default-y="24" spread="15" type="diminuendo"/>
@@ -41917,7 +41885,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="33" width="408">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="80">
         <pitch>
           <step>F</step>
@@ -43009,7 +42977,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="61" width="321">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <attributes>
         <key>
           <fifths>-2</fifths>
@@ -43277,7 +43245,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="65" width="306">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="88">
         <pitch>
           <step>F</step>
@@ -43711,7 +43679,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="73" width="250">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <rest/>
         <duration>8</duration>
@@ -44015,7 +43983,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="82" width="296">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="88" default-y="-73" halign="center">
@@ -44284,7 +44252,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="86" width="306">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <pitch>
           <step>F</step>
@@ -44758,7 +44726,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-22">down</stem>
+        <stem default-y="-22.5">down</stem>
         <beam number="1">end</beam>
       </note>
       <note default-x="205">
@@ -44786,7 +44754,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-22">down</stem>
+        <stem default-y="-22.5">down</stem>
         <beam number="1">end</beam>
         <lyric number="1">
           <extend type="stop"/>
@@ -44820,7 +44788,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-22">down</stem>
+        <stem default-y="-22.5">down</stem>
         <beam number="1">end</beam>
         <lyric number="1">
           <extend type="stop"/>
@@ -45109,7 +45077,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="110" width="254">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="91">
         <pitch>
           <step>D</step>
@@ -45282,7 +45250,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="116" width="214">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="92">
         <pitch>
           <step>B</step>
@@ -45430,7 +45398,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="123" width="221">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="92">
         <pitch>
           <step>B</step>
@@ -46519,7 +46487,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="151" width="298">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="88">
         <pitch>
           <step>F</step>
@@ -46731,7 +46699,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="155" width="350">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="88">
         <rest/>
         <duration>8</duration>
@@ -47117,7 +47085,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="164" width="295">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="91">
         <rest/>
         <duration>8</duration>
@@ -47386,7 +47354,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="173" width="414">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <attributes>
         <key>
           <cancel>-2</cancel>
@@ -47533,7 +47501,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="176" width="329">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="81">
         <pitch>
           <step>F</step>
@@ -47902,7 +47870,7 @@
       </note>
       <direction placement="above">
         <direction-type>
-          <dynamics default-x="46" default-y="22" halign="center">
+          <dynamics default-x="46" default-y="23" halign="center">
             <ppp/>
           </dynamics>
         </direction-type>
@@ -48875,7 +48843,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="201" width="302">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="81">
         <pitch>
           <step>F</step>
@@ -49078,7 +49046,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="205" width="398">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="80">
         <rest/>
         <duration>16</duration>
@@ -49446,7 +49414,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="211" width="408">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="84">
         <pitch>
           <step>C</step>
@@ -49867,7 +49835,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="219" width="359">
-      <print new-system="yes"/>
+      <print new-page="yes"/>
       <note default-x="81">
         <pitch>
           <step>F</step>
@@ -49970,7 +49938,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="223" width="240">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>F</step>
@@ -50676,7 +50644,7 @@
         <type>quarter</type>
         <stem default-y="-55">down</stem>
         <notations>
-          <slur bezier-x="60" bezier-y="19" default-x="11" default-y="8" number="1" placement="above" type="start"/>
+          <slur bezier-x="60" bezier-y="19" default-x="11" default-y="7" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -50859,7 +50827,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="246" width="238">
-      <print new-page="yes"/>
+      <print new-system="yes"/>
       <note default-x="78">
         <pitch>
           <step>F</step>
@@ -51030,7 +50998,7 @@
         <type>quarter</type>
         <stem default-y="-55">down</stem>
         <notations>
-          <slur bezier-x="57" bezier-y="48" default-x="6" default-y="-7" number="1" placement="above" type="start"/>
+          <slur bezier-x="58" bezier-y="48" default-x="6" default-y="-7" number="1" placement="above" type="start"/>
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -51116,7 +51084,7 @@
         <type>whole</type>
         <notations>
           <tied type="start"/>
-          <slur bezier-x="-50" bezier-y="62" default-x="8" default-y="-34" number="1" type="stop"/>
+          <slur bezier-x="-50" bezier-y="61" default-x="8" default-y="-34" number="1" type="stop"/>
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>end</syllabic>

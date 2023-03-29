@@ -7,7 +7,7 @@
     <creator type="lyricist">VICTOR HUGO</creator>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-03-09</encoding-date>
+      <encoding-date>2023-03-28</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -234,7 +234,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>145</system-distance>
+          <system-distance>86</system-distance>
         </system-layout>
       </print>
       <note default-x="55">
@@ -246,7 +246,7 @@
         <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <notations>
           <tied type="start"/>
         </notations>
@@ -265,7 +265,7 @@
         <tie type="stop"/>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <notations>
           <tied type="stop"/>
         </notations>
@@ -309,7 +309,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-44.5">down</stem>
+        <stem default-y="-45">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>grand</text>
@@ -360,7 +360,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-44.5">down</stem>
+        <stem default-y="-45">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>Sur</text>
@@ -419,7 +419,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-44.5">down</stem>
+        <stem default-y="-45">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>des</text>
@@ -447,7 +447,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-44.5">down</stem>
+        <stem default-y="-45">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
           <text>pro</text>
@@ -513,7 +513,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>145</system-distance>
+          <system-distance>86</system-distance>
         </system-layout>
       </print>
       <note default-x="65">
@@ -539,7 +539,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-54.5">down</stem>
+        <stem default-y="-55">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>et</text>
@@ -644,13 +644,13 @@
     </measure>
     <!--=======================================================-->
     <measure number="12" width="244">
-      <print new-page="yes">
+      <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>102</top-system-distance>
+          <system-distance>85</system-distance>
         </system-layout>
       </print>
       <note default-x="53">
@@ -876,7 +876,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-35">down</stem>
+        <stem default-y="-34.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
           <text>le</text>
@@ -891,13 +891,13 @@
     </measure>
     <!--=======================================================-->
     <measure number="16" width="427">
-      <print new-system="yes">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>113</system-distance>
+          <top-system-distance>70</top-system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -944,7 +944,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
           <text>ti</text>
@@ -1014,7 +1014,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>De</text>
@@ -1076,7 +1076,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>la</text>
@@ -1104,7 +1104,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-60">down</stem>
+        <stem default-y="-59.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>middle</syllabic>
           <text>ta</text>
@@ -1139,7 +1139,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <notations>
           <slur bezier-x="-18" bezier-y="15" default-x="7" default-y="-5" number="1" type="stop"/>
         </notations>
@@ -1187,7 +1187,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>150</system-distance>
+          <system-distance>130</system-distance>
         </system-layout>
       </print>
       <note default-x="65">
@@ -1264,7 +1264,7 @@
         <type>quarter</type>
         <dot/>
         <accidental>sharp</accidental>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>grand</text>
@@ -1370,13 +1370,13 @@
     </measure>
     <!--=======================================================-->
     <measure number="25" width="217">
-      <print new-page="yes">
+      <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>107</top-system-distance>
+          <system-distance>130</system-distance>
         </system-layout>
       </print>
       <note default-x="55">
@@ -1429,7 +1429,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-35">down</stem>
+        <stem default-y="-34.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>ton</text>
@@ -1462,7 +1462,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>half</type>
-        <stem default-y="0">up</stem>
+        <stem default-y="0.5">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
           <text>re</text>
@@ -1560,7 +1560,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>150</system-distance>
+          <system-distance>130</system-distance>
         </system-layout>
       </print>
       <note default-x="55">
@@ -1754,13 +1754,13 @@
     </measure>
     <!--=======================================================-->
     <measure number="35" width="339">
-      <print new-system="yes">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>113</system-distance>
+          <top-system-distance>70</top-system-distance>
         </system-layout>
       </print>
       <note default-x="52">
@@ -1771,7 +1771,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="10.5">up</stem>
+        <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
           <text>nel</text>
@@ -1806,7 +1806,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="10.5">up</stem>
+        <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>Et</text>
@@ -1903,7 +1903,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="10.5">up</stem>
+        <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>middle</syllabic>
           <text>qui</text>
@@ -1968,7 +1968,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="10.5">up</stem>
+        <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
           <text>mais</text>
@@ -1977,13 +1977,13 @@
     </measure>
     <!--=======================================================-->
     <measure number="38" width="477">
-      <print new-page="yes">
+      <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>107</top-system-distance>
+          <system-distance>114</system-distance>
         </system-layout>
       </print>
       <note default-x="65">
@@ -2208,7 +2208,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>150</system-distance>
+          <system-distance>114</system-distance>
         </system-layout>
       </print>
       <note default-x="65">
@@ -2264,7 +2264,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
           <text>ve</text>
@@ -2303,7 +2303,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>middle</syllabic>
           <text>et</text>
@@ -2331,7 +2331,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-53.5">down</stem>
+        <stem default-y="-53">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
           <text>mon</text>
@@ -2345,7 +2345,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
           <text>te</text>
@@ -2432,7 +2432,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>150</system-distance>
+          <system-distance>113</system-distance>
         </system-layout>
       </print>
       <note default-x="152">
@@ -2497,7 +2497,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <accidental>sharp</accidental>
-        <stem default-y="0.5">up</stem>
+        <stem default-y="0">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
           <text>main</text>
@@ -2948,7 +2948,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>150</system-distance>
+          <system-distance>128</system-distance>
         </system-layout>
       </print>
       <note>
@@ -3072,7 +3072,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-50">down</stem>
+        <stem default-y="-49.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
           <text>mi</text>
@@ -3179,7 +3179,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>150</system-distance>
+          <system-distance>128</system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -3235,7 +3235,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-39.5">down</stem>
+        <stem default-y="-40">down</stem>
         <notations>
           <slur bezier-x="23" bezier-y="18" default-x="6" default-y="5" number="1" placement="above" type="start"/>
         </notations>
@@ -3305,7 +3305,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>half</type>
-        <stem default-y="-39.5">down</stem>
+        <stem default-y="-40">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
           <text>plu</text>
@@ -3319,7 +3319,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-39.5">down</stem>
+        <stem default-y="-40">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
           <text>me,</text>
@@ -3472,13 +3472,13 @@
     </measure>
     <!--=======================================================-->
     <measure number="62" width="277">
-      <print new-page="yes">
+      <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>107</top-system-distance>
+          <system-distance>127</system-distance>
         </system-layout>
       </print>
       <note default-x="63">
@@ -3532,7 +3532,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-45">down</stem>
+        <stem default-y="-44.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
           <text>Et</text>
@@ -3546,7 +3546,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-45">down</stem>
+        <stem default-y="-44.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
           <text>re</text>
@@ -3560,7 +3560,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-45">down</stem>
+        <stem default-y="-44.5">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>middle</syllabic>
           <text>ve</text>
@@ -3720,7 +3720,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>half</type>
-        <stem default-y="-45">down</stem>
+        <stem default-y="-44.5">down</stem>
         <notations>
           <articulations>
             <accent default-x="-2" default-y="5" placement="above"/>
@@ -3748,13 +3748,13 @@
     </measure>
     <!--=======================================================-->
     <measure number="66" width="249">
-      <print new-system="yes">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>113</system-distance>
+          <top-system-distance>70</top-system-distance>
         </system-layout>
       </print>
       <direction placement="above">
@@ -3792,7 +3792,7 @@
         <tie type="stop"/>
         <voice>1</voice>
         <type>quarter</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <notations>
           <tied type="stop"/>
         </notations>
@@ -3875,7 +3875,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>150</system-distance>
+          <system-distance>160</system-distance>
         </system-layout>
       </print>
       <note default-x="52">
@@ -4055,13 +4055,13 @@
     </measure>
     <!--=======================================================-->
     <measure number="72" width="536">
-      <print new-page="yes">
+      <print new-system="yes">
         <system-layout>
           <system-margins>
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>107</top-system-distance>
+          <system-distance>160</system-distance>
         </system-layout>
       </print>
       <note default-x="55">
@@ -5500,7 +5500,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -5556,7 +5556,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -5579,7 +5579,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-69.5">down</stem>
+        <stem default-y="-70">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -5619,7 +5619,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-69.5">down</stem>
+        <stem default-y="-70">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -5682,7 +5682,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -5738,7 +5738,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -5783,7 +5783,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-69.5">down</stem>
+        <stem default-y="-70">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -5803,7 +5803,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-69.5">down</stem>
+        <stem default-y="-70">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -5961,7 +5961,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-69.5">down</stem>
+        <stem default-y="-70">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -6001,7 +6001,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-69.5">down</stem>
+        <stem default-y="-70">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -6080,7 +6080,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -6136,7 +6136,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -6159,7 +6159,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-69.5">down</stem>
+        <stem default-y="-70">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -6199,7 +6199,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-69.5">down</stem>
+        <stem default-y="-70">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -6727,7 +6727,7 @@
         <voice>2</voice>
         <type>quarter</type>
         <dot/>
-        <stem default-y="-50">down</stem>
+        <stem default-y="-49.5">down</stem>
         <staff>2</staff>
       </note>
       <note default-x="92">
@@ -6750,7 +6750,7 @@
         <voice>2</voice>
         <type>quarter</type>
         <dot/>
-        <stem default-y="10.5">up</stem>
+        <stem default-y="10">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="187">
@@ -7002,7 +7002,7 @@
         <voice>2</voice>
         <type>eighth</type>
         <accidental>sharp</accidental>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="143">
@@ -7019,7 +7019,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="12" width="244">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>82</staff-distance>
         </staff-layout>
@@ -7532,7 +7532,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -7573,7 +7573,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -7796,7 +7796,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -7837,7 +7837,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -7868,7 +7868,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="16" width="427">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
           <staff-distance>76</staff-distance>
         </staff-layout>
@@ -8615,7 +8615,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="35.5">up</stem>
+        <stem default-y="35">up</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -8908,7 +8908,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-14.5">up</stem>
+        <stem default-y="-15">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -8955,7 +8955,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-79.5">down</stem>
+        <stem default-y="-80">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -9179,7 +9179,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-79.5">down</stem>
+        <stem default-y="-80">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -9367,7 +9367,7 @@
         <voice>2</voice>
         <type>quarter</type>
         <dot/>
-        <stem default-y="10.5">up</stem>
+        <stem default-y="10">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="84">
@@ -9570,7 +9570,7 @@
         <type>quarter</type>
         <dot/>
         <accidental>sharp</accidental>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="83">
@@ -9728,7 +9728,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -9769,7 +9769,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -9800,7 +9800,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="25" width="217">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>66</staff-distance>
         </staff-layout>
@@ -9820,7 +9820,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-54.5">down</stem>
+        <stem default-y="-55">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -9876,7 +9876,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-54.5">down</stem>
+        <stem default-y="-55">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -10215,7 +10215,7 @@
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem default-y="-54.5">down</stem>
+        <stem default-y="-55">down</stem>
         <staff>1</staff>
       </note>
       <note default-x="16">
@@ -10257,7 +10257,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -10270,7 +10270,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -10283,7 +10283,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -10296,7 +10296,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -10309,7 +10309,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -10346,7 +10346,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -10383,7 +10383,7 @@
         <duration>8</duration>
         <voice>2</voice>
         <type>quarter</type>
-        <stem default-y="-55">down</stem>
+        <stem default-y="-54.5">down</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="83" bezier-y="37" default-x="7" default-y="3" number="1" placement="above" type="start"/>
@@ -10459,7 +10459,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -10499,7 +10499,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -10518,7 +10518,7 @@
         <duration>16</duration>
         <voice>2</voice>
         <type>half</type>
-        <stem default-y="-39.5">down</stem>
+        <stem default-y="-40">down</stem>
         <staff>2</staff>
       </note>
       <note default-x="25">
@@ -10616,7 +10616,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -10656,7 +10656,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="25.5">up</stem>
+        <stem default-y="25">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -10698,7 +10698,7 @@
         <duration>8</duration>
         <voice>2</voice>
         <type>quarter</type>
-        <stem default-y="-55">down</stem>
+        <stem default-y="-54.5">down</stem>
         <staff>2</staff>
       </note>
       <note default-x="54">
@@ -10932,7 +10932,7 @@
         <duration>8</duration>
         <voice>2</voice>
         <type>quarter</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-37" bezier-y="28" default-x="7" default-y="5" number="1" type="stop"/>
@@ -11007,7 +11007,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11029,7 +11029,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-39.5">down</stem>
+        <stem default-y="-40">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11090,7 +11090,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11110,7 +11110,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11130,7 +11130,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11150,7 +11150,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11183,7 +11183,7 @@
         <duration>8</duration>
         <voice>2</voice>
         <type>quarter</type>
-        <stem default-y="-63.5">down</stem>
+        <stem default-y="-63">down</stem>
         <staff>2</staff>
       </note>
       <backup>
@@ -11214,7 +11214,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11234,7 +11234,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11254,7 +11254,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11274,7 +11274,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11310,7 +11310,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>half</type>
-        <stem default-y="-68">down</stem>
+        <stem default-y="-68.5">down</stem>
         <staff>2</staff>
       </note>
       <note default-x="116">
@@ -11321,7 +11321,7 @@
         <duration>16</duration>
         <voice>3</voice>
         <type>half</type>
-        <stem default-y="-73.5">down</stem>
+        <stem default-y="-73">down</stem>
         <staff>2</staff>
       </note>
     </measure>
@@ -11339,7 +11339,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11359,7 +11359,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11379,7 +11379,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11399,7 +11399,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11440,7 +11440,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="35" width="339">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
           <staff-distance>84</staff-distance>
         </staff-layout>
@@ -11456,7 +11456,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -11469,7 +11469,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -11482,7 +11482,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -11495,7 +11495,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -11508,7 +11508,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -11521,7 +11521,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -11534,7 +11534,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -11547,7 +11547,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -11584,7 +11584,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11604,7 +11604,7 @@
         <tie type="stop"/>
         <voice>2</voice>
         <type>quarter</type>
-        <stem default-y="15.5">up</stem>
+        <stem default-y="15">up</stem>
         <staff>2</staff>
         <notations>
           <tied type="stop"/>
@@ -11662,7 +11662,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>quarter</type>
-        <stem default-y="-55">down</stem>
+        <stem default-y="-54.5">down</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="20" bezier-y="-16" default-x="6" default-y="-45" number="1" placement="below" type="start"/>
@@ -11697,7 +11697,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="0">up</stem>
+        <stem default-y="0.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -11737,7 +11737,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <stem default-y="0">up</stem>
+        <stem default-y="0.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -11752,7 +11752,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <stem default-y="0">up</stem>
+        <stem default-y="0.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -11766,7 +11766,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="0">up</stem>
+        <stem default-y="0.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -11780,7 +11780,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="0">up</stem>
+        <stem default-y="0.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -11822,7 +11822,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="8">up</stem>
+        <stem default-y="8.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -11835,7 +11835,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -11863,7 +11863,7 @@
         <voice>2</voice>
         <type>quarter</type>
         <accidental>natural</accidental>
-        <stem default-y="38.5">up</stem>
+        <stem default-y="39">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="280">
@@ -12015,7 +12015,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -12028,7 +12028,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -12042,7 +12042,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -12055,7 +12055,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -12073,7 +12073,7 @@
         <voice>2</voice>
         <type>half</type>
         <accidental>sharp</accidental>
-        <stem default-y="23">up</stem>
+        <stem default-y="23.5">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="138">
@@ -12097,7 +12097,7 @@
         <voice>2</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
-        <stem default-y="19">up</stem>
+        <stem default-y="18">up</stem>
         <staff>2</staff>
       </note>
       <backup>
@@ -12122,7 +12122,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="38" width="477">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>85</staff-distance>
         </staff-layout>
@@ -12356,7 +12356,7 @@
         <voice>2</voice>
         <type>half</type>
         <accidental>sharp</accidental>
-        <stem default-y="24">up</stem>
+        <stem default-y="23">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="273">
@@ -12367,7 +12367,7 @@
         <duration>8</duration>
         <voice>2</voice>
         <type>quarter</type>
-        <stem default-y="28">up</stem>
+        <stem default-y="29">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="375">
@@ -12429,7 +12429,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -12489,7 +12489,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -12510,7 +12510,7 @@
         <voice>2</voice>
         <type>half</type>
         <accidental>sharp</accidental>
-        <stem default-y="24">up</stem>
+        <stem default-y="23">up</stem>
         <staff>2</staff>
       </note>
       <note default-x="144">
@@ -12652,7 +12652,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -12938,7 +12938,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="0.5">up</stem>
+        <stem default-y="0">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -12976,7 +12976,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -12989,7 +12989,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -13002,7 +13002,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -13015,7 +13015,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -13339,7 +13339,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -13352,7 +13352,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -13365,7 +13365,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -13378,7 +13378,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -14028,10 +14028,10 @@
         <voice>2</voice>
         <type>eighth</type>
         <accidental>sharp</accidental>
-        <stem default-y="-40">down</stem>
+        <stem default-y="-39.5">down</stem>
         <staff>2</staff>
         <notations>
-          <slur bezier-x="-17" bezier-y="17" default-x="6" default-y="15" number="1" type="stop"/>
+          <slur bezier-x="-16" bezier-y="16" default-x="6" default-y="15" number="1" type="stop"/>
         </notations>
       </note>
       <note default-x="26">
@@ -14174,7 +14174,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14194,7 +14194,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="30">up</stem>
+        <stem default-y="30.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14220,7 +14220,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14240,7 +14240,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="30">up</stem>
+        <stem default-y="30.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14261,7 +14261,7 @@
         <voice>2</voice>
         <type>eighth</type>
         <accidental>sharp</accidental>
-        <stem default-y="-39.5">down</stem>
+        <stem default-y="-40">down</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-10" bezier-y="10" default-x="7" default-y="15" number="1" type="stop"/>
@@ -14397,7 +14397,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14417,7 +14417,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="30">up</stem>
+        <stem default-y="30.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14437,7 +14437,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14457,7 +14457,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="30">up</stem>
+        <stem default-y="30.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14516,7 +14516,7 @@
           <slur bezier-x="13" bezier-y="-13" default-x="7" default-y="-43" number="1" placement="below" type="start"/>
           <slur bezier-x="11" bezier-y="10" default-x="18" default-y="5" number="2" orientation="over" type="start"/>
           <articulations>
-            <accent default-x="-2" default-y="-53" placement="below"/>
+            <accent default-x="-2" default-y="-52" placement="below"/>
           </articulations>
         </notations>
       </note>
@@ -14540,7 +14540,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="10">up</stem>
+        <stem default-y="10.5">up</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-14" bezier-y="-12" default-x="7" default-y="-45" number="1" type="stop"/>
@@ -14601,7 +14601,7 @@
     <measure number="47" width="271">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="22" default-y="-87" halign="center">
+          <dynamics default-x="22" default-y="-88" halign="center">
             <p/>
           </dynamics>
         </direction-type>
@@ -14656,7 +14656,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14712,7 +14712,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14735,7 +14735,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-70">down</stem>
+        <stem default-y="-69.5">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -14777,7 +14777,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-70">down</stem>
+        <stem default-y="-69.5">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -14856,7 +14856,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14912,7 +14912,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -14935,7 +14935,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-70">down</stem>
+        <stem default-y="-69.5">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -14975,7 +14975,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-70">down</stem>
+        <stem default-y="-69.5">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -16019,7 +16019,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -16077,7 +16077,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -16205,7 +16205,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -16221,7 +16221,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -16246,7 +16246,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -16259,7 +16259,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -16284,7 +16284,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -16297,7 +16297,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -16322,7 +16322,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -16335,7 +16335,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -16360,7 +16360,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -16410,7 +16410,7 @@
         <duration>16</duration>
         <voice>2</voice>
         <type>half</type>
-        <stem default-y="-14.5">up</stem>
+        <stem default-y="-15">up</stem>
         <staff>2</staff>
         <notations>
           <articulations>
@@ -16453,7 +16453,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -16493,7 +16493,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -16619,7 +16619,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -16659,7 +16659,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-4.5">up</stem>
+        <stem default-y="-5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -16805,7 +16805,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -16821,7 +16821,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -16834,7 +16834,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -16847,7 +16847,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -16860,7 +16860,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -16873,7 +16873,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -16898,7 +16898,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -16911,7 +16911,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -16936,7 +16936,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -17041,7 +17041,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -17066,7 +17066,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -17079,7 +17079,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -17104,7 +17104,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -17117,7 +17117,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -17142,7 +17142,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -17155,7 +17155,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -17180,7 +17180,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -17193,7 +17193,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -17218,7 +17218,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -17231,7 +17231,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -17256,7 +17256,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -17269,7 +17269,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -17294,7 +17294,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -17307,7 +17307,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -17332,7 +17332,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -17425,7 +17425,7 @@
     <measure number="60" width="192">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="16" default-y="-85" halign="center">
+          <dynamics default-x="16" default-y="-86" halign="center">
             <p/>
           </dynamics>
         </direction-type>
@@ -17480,7 +17480,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -17536,7 +17536,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="5">up</stem>
+        <stem default-y="5.5">up</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -17559,7 +17559,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-60">down</stem>
+        <stem default-y="-59.5">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -17599,7 +17599,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-60">down</stem>
+        <stem default-y="-59.5">down</stem>
         <staff>2</staff>
         <notations>
           <ornaments>
@@ -17870,7 +17870,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="62" width="277">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>72</staff-distance>
         </staff-layout>
@@ -17934,7 +17934,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -17954,7 +17954,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-45">down</stem>
+        <stem default-y="-44.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -18668,7 +18668,7 @@
           <actual-notes>2</actual-notes>
           <normal-notes>1</normal-notes>
         </time-modification>
-        <stem default-y="-80">down</stem>
+        <stem default-y="-79.5">down</stem>
         <staff>1</staff>
         <notations>
           <ornaments>
@@ -18810,7 +18810,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="66" width="249">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
           <staff-distance>68</staff-distance>
         </staff-layout>
@@ -18915,7 +18915,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <staff>2</staff>
       </note>
       <note default-x="55">
@@ -18978,7 +18978,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-12" bezier-y="-7" default-x="-5" default-y="-43" number="1" type="stop"/>
@@ -19106,7 +19106,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>natural</accidental>
-        <stem default-y="15.5">up</stem>
+        <stem default-y="15">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -19131,7 +19131,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15.5">up</stem>
+        <stem default-y="15">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19144,7 +19144,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15.5">up</stem>
+        <stem default-y="15">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19169,7 +19169,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15.5">up</stem>
+        <stem default-y="15">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -19340,7 +19340,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-13" bezier-y="-13" default-x="-5" default-y="-43" number="1" type="stop"/>
@@ -19377,7 +19377,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <staff>2</staff>
       </note>
       <note default-x="165">
@@ -19413,7 +19413,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="-49.5">down</stem>
+        <stem default-y="-50">down</stem>
         <staff>2</staff>
       </note>
       <note default-x="368">
@@ -19434,7 +19434,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -19461,7 +19461,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19474,7 +19474,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19500,7 +19500,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -19513,7 +19513,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -19538,7 +19538,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19551,7 +19551,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19576,7 +19576,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -19589,7 +19589,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -19616,7 +19616,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19629,7 +19629,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19655,7 +19655,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -19668,7 +19668,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -19693,7 +19693,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19706,7 +19706,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19731,7 +19731,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-74.5">down</stem>
+        <stem default-y="-75">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -19761,7 +19761,7 @@
         <notations>
           <slur bezier-x="25" bezier-y="21" default-x="6" default-y="3" number="1" placement="above" type="start"/>
           <articulations>
-            <accent default-x="-2" default-y="12" placement="above"/>
+            <accent default-x="-2" default-y="13" placement="above"/>
           </articulations>
         </notations>
       </note>
@@ -19826,7 +19826,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-75">down</stem>
+        <stem default-y="-74.5">down</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -19851,7 +19851,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-75">down</stem>
+        <stem default-y="-74.5">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19864,7 +19864,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-75">down</stem>
+        <stem default-y="-74.5">down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -19889,7 +19889,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-75">down</stem>
+        <stem default-y="-74.5">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -20054,7 +20054,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -20081,7 +20081,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -20094,7 +20094,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -20120,7 +20120,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -20136,7 +20136,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="-34.5">down</stem>
+        <stem default-y="-35">down</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-7" bezier-y="8" default-x="6" default-y="10" number="1" type="stop"/>
@@ -20564,7 +20564,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -20578,7 +20578,7 @@
         <voice>1</voice>
         <type>16th</type>
         <accidental>natural</accidental>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -20591,7 +20591,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -20604,7 +20604,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="15">up</stem>
+        <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -20801,7 +20801,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="72" width="536">
-      <print new-page="yes">
+      <print new-system="yes">
         <staff-layout number="1">
           <staff-distance>65</staff-distance>
         </staff-layout>
@@ -20853,7 +20853,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -20878,7 +20878,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -20891,7 +20891,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -20916,7 +20916,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -20929,7 +20929,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -20954,7 +20954,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -20967,7 +20967,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -20992,7 +20992,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -21308,7 +21308,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -21333,7 +21333,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -21346,7 +21346,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -21371,7 +21371,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -21384,7 +21384,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -21409,7 +21409,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -21422,7 +21422,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -21447,7 +21447,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -21460,7 +21460,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -21485,7 +21485,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -21498,7 +21498,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -21523,7 +21523,7 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
@@ -21837,7 +21837,7 @@
             <left-margin>59</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>150</system-distance>
+          <system-distance>160</system-distance>
         </system-layout>
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
@@ -22027,7 +22027,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="-50">down</stem>
+        <stem default-y="-49.5">down</stem>
         <staff>2</staff>
         <notations>
           <slur bezier-x="-15" bezier-y="13" default-x="7" default-y="-5" number="1" type="stop"/>
@@ -22203,10 +22203,10 @@
         <voice>2</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
-        <stem default-y="-5">up</stem>
+        <stem default-y="-4.5">up</stem>
         <staff>2</staff>
         <notations>
-          <slur bezier-x="18" bezier-y="-12" default-x="7" default-y="-50" number="1" placement="below" type="start"/>
+          <slur bezier-x="17" bezier-y="-13" default-x="7" default-y="-50" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="144">
@@ -22217,10 +22217,10 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="0.5">up</stem>
+        <stem default-y="0">up</stem>
         <staff>2</staff>
         <notations>
-          <slur bezier-x="-15" bezier-y="-16" default-x="6" default-y="-45" number="1" type="stop"/>
+          <slur bezier-x="-15" bezier-y="-15" default-x="6" default-y="-45" number="1" type="stop"/>
         </notations>
       </note>
       <note default-x="179">
@@ -22458,7 +22458,7 @@
         <duration>4</duration>
         <voice>2</voice>
         <type>eighth</type>
-        <stem default-y="0.5">up</stem>
+        <stem default-y="0">up</stem>
         <staff>2</staff>
         <notations>
           <articulations>

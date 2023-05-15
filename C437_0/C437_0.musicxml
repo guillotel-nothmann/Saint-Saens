@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/3.1/partwise.dtd">
 <score-partwise version="3.1">
-  <movement-title>Calme des nuit</movement-title>
   <identification>
-    <creator type="composer">Camille Saint-Saëns</creator>
-    <rights>©IREMUS</rights>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-05-10</encoding-date>
+      <encoding-date>2023-05-12</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -80,6 +77,7 @@
     </part-group>
     <score-part id="P1">
       <part-name>Sopranos</part-name>
+      <part-abbreviation>S.</part-abbreviation>
       <group>score</group>
       <score-instrument id="P1-I1">
         <instrument-name>SmartMusicSoftSynth</instrument-name>
@@ -95,6 +93,7 @@
     </score-part>
     <score-part id="P2">
       <part-name>Contraltos</part-name>
+      <part-abbreviation>C.</part-abbreviation>
       <group>score</group>
       <score-instrument id="P2-I2">
         <instrument-name>SmartMusicSoftSynth</instrument-name>
@@ -110,6 +109,7 @@
     </score-part>
     <score-part id="P3">
       <part-name>Ténors</part-name>
+      <part-abbreviation>T.</part-abbreviation>
       <group>score</group>
       <score-instrument id="P3-I3">
         <instrument-name>SmartMusicSoftSynth</instrument-name>
@@ -125,6 +125,7 @@
     </score-part>
     <score-part id="P4">
       <part-name>Basses</part-name>
+      <part-abbreviation>B.</part-abbreviation>
       <group>score</group>
       <score-instrument id="P4-I4">
         <instrument-name>SmartMusicSoftSynth</instrument-name>

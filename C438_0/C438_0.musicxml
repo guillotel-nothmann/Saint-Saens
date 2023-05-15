@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/3.1/partwise.dtd">
 <score-partwise version="3.1">
-  <movement-title>Les fleurs et les arbres</movement-title>
   <identification>
-    <creator type="composer">Camille SAINT SAËNS</creator>
-    <rights>IREMUS</rights>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-03-02</encoding-date>
+      <encoding-date>2023-05-12</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -62,18 +59,6 @@
     <lyric-font font-family="Finale Lyrics" font-size="10.25"/>
   </defaults>
   <credit page="1">
-    <credit-type>title</credit-type>
-    <credit-words default-x="597" default-y="1440" font-size="24" justify="center" valign="top">Les fleurs et les arbres</credit-words>
-  </credit>
-  <credit page="1">
-    <credit-type>composer</credit-type>
-    <credit-words default-x="1124" default-y="1362" font-size="12" justify="right" valign="top">Camille SAINT SAËNS</credit-words>
-  </credit>
-  <credit page="1">
-    <credit-type>rights</credit-type>
-    <credit-words default-x="597" default-y="70" font-size="10" justify="center" valign="bottom">IREMUS</credit-words>
-  </credit>
-  <credit page="1">
     <credit-type>part name</credit-type>
     <credit-words default-x="70" default-y="1453" font-size="12" valign="top">Conducteur</credit-words>
   </credit>
@@ -81,41 +66,21 @@
     <credit-type>page number</credit-type>
     <credit-words default-x="70" default-y="1579" font-size="12" valign="top">2</credit-words>
   </credit>
-  <credit page="2">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les fleurs et les arbres</credit-words>
-  </credit>
   <credit page="3">
     <credit-type>page number</credit-type>
     <credit-words default-x="1091" default-y="1579" font-size="12" halign="right" valign="top">3</credit-words>
-  </credit>
-  <credit page="3">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les fleurs et les arbres</credit-words>
   </credit>
   <credit page="4">
     <credit-type>page number</credit-type>
     <credit-words default-x="70" default-y="1579" font-size="12" valign="top">4</credit-words>
   </credit>
-  <credit page="4">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les fleurs et les arbres</credit-words>
-  </credit>
   <credit page="5">
     <credit-type>page number</credit-type>
     <credit-words default-x="1091" default-y="1579" font-size="12" halign="right" valign="top">5</credit-words>
   </credit>
-  <credit page="5">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les fleurs et les arbres</credit-words>
-  </credit>
   <credit page="6">
     <credit-type>page number</credit-type>
     <credit-words default-x="70" default-y="1579" font-size="12" valign="top">6</credit-words>
-  </credit>
-  <credit page="6">
-    <credit-type>title</credit-type>
-    <credit-words default-x="581" default-y="1579" font-size="12" justify="center" valign="top">Les fleurs et les arbres</credit-words>
   </credit>
   <part-list>
     <part-group number="1" type="start">

@@ -30,6 +30,8 @@ def a_propos():
 def ark_purification(ark):
     #Met en forme l'ark afin qu'il soit utilisable par document_api
     ark = ark.strip()
+    if "#" in ark:
+        ark = ark[:-1]
     ark = ark.replace(";","")
     while ark.count("/") != 1:
         if ark.find("item") !=-1:
@@ -90,19 +92,19 @@ def arkyer(gmei_file, ark, Gprenom,Gnom,Eprenom,Enom):
     global mei_file
     parser = ET.XMLParser(remove_blank_text=True)
     tree = ET.parse(gmei_file, parser)
+    meiHead_tag = tree.find(".//mei:meiHead", namespaces=ns)
 
     pubStmt = tree.find(".//mei:pubStmt", namespaces=ns)
+    if pubStmt is None:
+        pubStmt = ET.SubElement(meiHead_tag, "pubStmt")
     print(pubStmt)
-
+    
     sourceDesc_tag = ET.Element("sourceDesc")
-    source_tag = ET.Element("source")
-    source_tag.set("auth.uri", "https://gallica.bnf.fr/ark:/" + ark)
-    bibl_tag = ET.Element("bibl")
-    source_tag.append(bibl_tag)
-
     pubStmt.addnext(sourceDesc_tag)
-    sourceDesc_tag.append(source_tag)
-
+    source_tag = ET.SubElement(sourceDesc_tag, "source")
+    source_tag.set("auth.uri", "https://gallica.bnf.fr/ark:/" + ark)
+    bibl_tag = ET.SubElement(sourceDesc_tag, "bibl")
+    source_tag.append(bibl_tag)
 
     tree.write(gmei_file, pretty_print=True, encoding=utfx)
     mei_file.set("Aucun fichier sélectionné")
@@ -159,8 +161,8 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
 
     #fileDesc
     #F-Title
-    FTtitleStmt_tag = find_tag(tree,"titleStmt")
-    FTtitle_tag = ET.SubElement(FTtitleStmt_tag,"title")
+    FTtitleStmt_tag = find_tag(tree,"titleStmt", namespaces=ns)
+    FTtitle_tag = find_tag(tree,"title", namespaces=ns)
     FTsubtitle_tag = ET.Element("title")
     FTsubtitle_tag.set("type", "subtitle" )
     FTsubtitle_tag.text=": an electronic transcription"
@@ -194,18 +196,26 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
         Esibmei_p_tag = ET.SubElement(Eapplication_sibmei_tag, 'p')
         Esibmei_p_tag.text = "Export to the Music Encoding Initiative (MEI) Format"
     #On ajoute la mention de cette application
-    Ethis_app_tag = ET.SubElement(encodingDesc_tag,'application')
+    Ethis_app_info = ET.SubElement(encodingDesc_tag,'appInfo')
+    Ethis_app_tag = ET.SubElement(Ethis_app_info,'application')
     Ethis_app_tag.set("version","1.0")
     Ethis_app_name_tag = ET.SubElement(Ethis_app_tag, "name")
     Ethis_app_name_tag.text="GallicOvuM"
     Ethis_app_p_tag = ET.SubElement(Ethis_app_tag, "p")
     Ethis_app_p_tag.text = "Metadata creation by extracting from Gallica"
+    Ephotoscore_info = ET.SubElement(encodingDesc_tag,'appInfo')
+    Ephotoscore_tag = ET.SubElement(Ephotoscore_info,'application')
+    Ephotoscore_tag.set("version","2020.1.14 (9.0.2) - 14th January, 2020")
+    Ephotoscore_name_tag = ET.SubElement(Ephotoscore_tag, "name")
+    Ephotoscore_name_tag.text = "PhotoScore & NotateMe"
+    Ephotoscore_p_tag = ET.SubElement(Ephotoscore_tag, "name")
+    Ephotoscore_p_tag.text = "Engraving by Optical Music Recognition "
     EprojectDesc_tag=ET.SubElement(encodingDesc_tag,"projectDesc")
     EprojectDesc_tag.text="ANR CollabScore (https://anr.fr/Projet-ANR-20-CE27-0014) - IReMus UMR 8223  Aurélien Balland Chatignon, Thomas Bottini, Christophe Guillotel-Nothmann, Fabien Guilloux, Simon Raguet."
 
     #workList
-    workList_tag = ET.SubElement(meiHead_tag,'workList')
-    work_tag =ET.SubElement(workList_tag,'work')
+    workList_tag = find_tag(tree,"workList", namespaces=ns)
+    work_tag = find_tag(tree,"work", namespaces=ns)
     Wtitle_tag=ET.SubElement(work_tag,'title')
     Wcomposer_tag = ET.Element("composer")
     Wtitle_tag.addnext(Wcomposer_tag)
@@ -245,7 +255,7 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
 
     revision_date_tag = ET.SubElement(change_tag, "date")
     revision_date_tag.set("isodate", str(datetime.datetime.now().strftime("%Y-%m-%d") ))
-    revision_resp_tag = ET.SubElement(revisionDesc_tag, "resp")
+    revision_resp_tag = ET.SubElement(change_tag, "resp")
     revision_resp_tag.text = "GallicOvuM"
    
 
@@ -346,10 +356,10 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
                 else:
                     FTcontributeur_tag=ET.SubElement(FTrespStmt_tag,'persName')
                     FTcontributeur_tag.set('role', role )
-                    contributeur_name = dccontributor[:dot]
-                    FTcontributeur_tag.text= dccontributor[:dot]
+                    contributeur_name = element[:dot]
                     parenthese = contributeur_name.find("(")
                     contributeur_name = contributeur_name[:parenthese].strip()
+                    FTcontributeur_tag.text= contributeur_name
                     tree.write(gmei_file, pretty_print=True, encoding=utfx)
         else:
             #si les contributeur ne sont pas dans une liste (c'est à dire qu'il n'y en a qu'un.)
@@ -398,7 +408,8 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
 
 root = tk.Tk()
 root.title("GallicOvuM")
-root.geometry("600x280")
+root.geometry("610x235")
+root.resizable(False, False)
 Prenom = "Aurélien"
 Nom = "Balland Chatignon"
 
@@ -433,26 +444,26 @@ link_entry = tk.Entry(root, bg="blue")
 link_entry.config(width="31")
 
 # Widget pour le Graveur
-Graveur_Label.grid(row=7, column=0, padx=5, pady=5, sticky="n")
-Graveur_prenom.grid(row=8, column=0, padx=5, pady=5, sticky="sw")
-Graveur_nom.grid(row=9, column=0, padx=5, pady=5, sticky="sw")
+Graveur_Label.grid(row=2, column=0, padx=5, pady=5, sticky="n")
+Graveur_prenom.grid(row=3, column=0, padx=5, pady=5, sticky="sw")
+Graveur_nom.grid(row=4, column=0, padx=5, pady=5, sticky="sw")
 
 # Widget pour l'Encodeur
-Encodeur_Label.grid(row=7, column=1, padx=5, pady=5, sticky="n")
-Encodeur_prenom.grid(row=8, column=1, padx=5, pady=5, )
-Encodeur_nom.grid(row=9, column=1, padx=5, pady=5, )
+Encodeur_Label.grid(row=2, column=1, padx=5, pady=5, sticky="n")
+Encodeur_prenom.grid(row=3, column=1, padx=5, pady=5, )
+Encodeur_nom.grid(row=4, column=1, padx=5, pady=5, )
 
 # Autres widgets
-a_propos_button.grid(row=10, column=1, sticky="w")
-mei_label.grid(row=2, column=1, padx=5, pady=5, sticky="w")
-mei_button.grid(row=2, column=0, padx=5, pady=5, sticky="we")
-link_label.grid(row=0, column=1, padx=5, pady=5, sticky="we")
-link_entry.grid(row=1, column=1, padx=5, pady=5, sticky="w")
-analyse_button.grid(row=1, column=0, padx=5, pady=5, sticky="we")
+a_propos_button.grid(row=5, column=2, sticky="w")
+mei_label.grid(row=1, column=1, padx=5, pady=5, sticky="w")
+mei_button.grid(row=1, column=0, padx=5, pady=5, sticky="we")
+link_label.grid(row=0, column=0, padx=5, pady=5, sticky="we")
+link_entry.grid(row=0, column=1, padx=5, pady=5, sticky="w")
+analyse_button.grid(row=5, column=1, padx=5, pady=5, sticky="w")
 #ark_button.grid(row=2, column=0, padx=5, pady=5, sticky="e")
-action_button.grid(row=10, column=0, padx=5, pady=5, sticky="w")
-frame_encodeur.grid(row=8, column=1, padx=5, pady=5, sticky="w")
-frame_Graveur.grid(row=8, column=0, padx=5, pady=5, sticky="w")
+action_button.grid(row=5, column=0, padx=5, pady=5, sticky="w")
+frame_encodeur.grid(row=2, column=1, padx=5, pady=5, sticky="w")
+frame_Graveur.grid(row=2, column=0, padx=5, pady=5, sticky="w")
 
 
 root.mainloop()

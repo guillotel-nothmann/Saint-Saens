@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/3.1/partwise.dtd">
 <score-partwise version="3.1">
-  <movement-title>L'ATTENTE</movement-title>
   <identification>
-    <creator type="composer">Agitato.</creator>
-    <creator type="lyricist">VICTOR HUGO</creator>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-03-28</encoding-date>
+      <encoding-date>2023-05-15</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -67,12 +64,6 @@
     <word-font font-family="Edwin" font-size="10.1"/>
     <lyric-font font-family="Finale Lyrics" font-size="7.6"/>
   </defaults>
-  <credit page="1">
-    <credit-words default-x="648" default-y="1632" font-size="22" justify="center" valign="top">L'ATTENTE</credit-words>
-  </credit>
-  <credit page="1">
-    <credit-words default-x="95" default-y="1532" valign="top">VICTOR HUGO</credit-words>
-  </credit>
   <part-list>
     <score-part id="P1">
       <part-name>Chant</part-name>

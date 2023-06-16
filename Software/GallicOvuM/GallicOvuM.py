@@ -92,9 +92,10 @@ def arkyer(gmei_file, ark, Gprenom,Gnom,Eprenom,Enom):
     global mei_file
     parser = ET.XMLParser(remove_blank_text=True)
     tree = ET.parse(gmei_file, parser)
-    meiHead_tag = tree.find(".//mei:meiHead", namespaces=ns)
 
-    pubStmt = tree.find(".//mei:pubStmt", namespaces=ns)
+    meiHead_tag = tree.find(".//mei:meiHead", ns)
+
+    pubStmt = tree.find(".//mei:pubStmt", ns)
     if pubStmt is None:
         pubStmt = ET.SubElement(meiHead_tag, "pubStmt")
     print(pubStmt)
@@ -119,8 +120,8 @@ def analyse(ark):
           print(cle, ":==)=======>", res["results"]["notice"]["record"]["metadata"]["oai_dc:dc"][cle])
           print("---------------------")
 
-def find_tag(tree, name):
-    tag = tree.find(".//mei:"+name, namespaces=ns)
+def find_tag(tree, name, ns):
+    tag = tree.find(".//mei:"+name, ns)
     if tag is None:
         tag = ET.Element(name)
 
@@ -150,10 +151,10 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     #clean_tag(tree, "lyricist")
 
     #trouver les differents éléments preexistants
-    bibl_tag = tree.find(".//mei:bibl", namespaces=ns)
+    bibl_tag = tree.find(".//mei:bibl", ns)
     
-    meiHead_tag = tree.find(".//mei:meiHead", namespaces=ns)
-    fileDesc_tag = tree.find(".//mei:fileDesc", namespaces=ns)
+    meiHead_tag = tree.find(".//mei:meiHead", ns)
+    fileDesc_tag = tree.find(".//mei:fileDesc", ns)
     
     # --- Création/récupération des balises ---
     #altId
@@ -161,14 +162,14 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
 
     #fileDesc
     #F-Title
-    FTtitleStmt_tag = find_tag(tree,"titleStmt", namespaces=ns)
-    FTtitle_tag = find_tag(tree,"title", namespaces=ns)
+    FTtitleStmt_tag = find_tag(tree,"titleStmt", ns)
+    FTtitle_tag = find_tag(tree,"title", ns)
     FTsubtitle_tag = ET.Element("title")
     FTsubtitle_tag.set("type", "subtitle" )
     FTsubtitle_tag.text=": an electronic transcription"
     FTtitle_tag.addnext(FTsubtitle_tag)
     FTcomposer_tag = ET.SubElement(FTtitleStmt_tag,"composer")
-    FTrespStmt_tag= tree.find('.//mei:respStmt', namespaces=ns)
+    FTrespStmt_tag= tree.find('.//mei:respStmt', ns)
     FTencoded_resp_tag = ET.SubElement(FTrespStmt_tag,"resp")
     FTencoded_resp_tag.text="Encoded by:"
     FTencoded_name_tag = ET.SubElement(FTrespStmt_tag,"name")
@@ -189,33 +190,32 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     FXextent_tag.set("unit", "pages")
 
     #encodindDesc
-    encodingDesc_tag = tree.find(".//mei:encodingDesc", namespaces=ns)
-    Eapplication_sibmei_tag = tree.find(".//mei:application[@xml:id='sibmei']", namespaces=ns)
+    encodingDesc_tag = tree.find(".//mei:encodingDesc", ns)
+    Eapplication_sibmei_tag = tree.find(".//mei:application[@xml:id='sibmei']", ns)
     #Si l'application pour créer le mei est bien sibmei, on ajoute un texte qui explique l'utilisation de sibmei
     if Eapplication_sibmei_tag is not None:
         Esibmei_p_tag = ET.SubElement(Eapplication_sibmei_tag, 'p')
         Esibmei_p_tag.text = "Export to the Music Encoding Initiative (MEI) Format"
     #On ajoute la mention de cette application
-    Ethis_app_info = ET.SubElement(encodingDesc_tag,'appInfo')
-    Ethis_app_tag = ET.SubElement(Ethis_app_info,'application')
+    app_info_tag = tree.find('.//mei:appInfo', ns)
+    Ethis_app_tag = ET.SubElement(app_info_tag,'application')
     Ethis_app_tag.set("version","1.0")
     Ethis_app_name_tag = ET.SubElement(Ethis_app_tag, "name")
     Ethis_app_name_tag.text="GallicOvuM"
     Ethis_app_p_tag = ET.SubElement(Ethis_app_tag, "p")
     Ethis_app_p_tag.text = "Metadata creation by extracting from Gallica"
-    Ephotoscore_info = ET.SubElement(encodingDesc_tag,'appInfo')
-    Ephotoscore_tag = ET.SubElement(Ephotoscore_info,'application')
+    Ephotoscore_tag = ET.SubElement(app_info_tag,'application')
     Ephotoscore_tag.set("version","2020.1.14 (9.0.2) - 14th January, 2020")
     Ephotoscore_name_tag = ET.SubElement(Ephotoscore_tag, "name")
     Ephotoscore_name_tag.text = "PhotoScore & NotateMe"
-    Ephotoscore_p_tag = ET.SubElement(Ephotoscore_tag, "name")
-    Ephotoscore_p_tag.text = "Engraving by Optical Music Recognition "
+    Ephotoscore_p_tag = ET.SubElement(Ephotoscore_tag, "p")
+    Ephotoscore_p_tag.text = "Engraving by Optical Music Recognition"
     EprojectDesc_tag=ET.SubElement(encodingDesc_tag,"projectDesc")
     EprojectDesc_tag.text="ANR CollabScore (https://anr.fr/Projet-ANR-20-CE27-0014) - IReMus UMR 8223  Aurélien Balland Chatignon, Thomas Bottini, Christophe Guillotel-Nothmann, Fabien Guilloux, Simon Raguet."
 
     #workList
-    workList_tag = find_tag(tree,"workList", namespaces=ns)
-    work_tag = find_tag(tree,"work", namespaces=ns)
+    workList_tag = find_tag(tree,"workList", ns)
+    work_tag = find_tag(tree,"work", ns)
     Wtitle_tag=ET.SubElement(work_tag,'title')
     Wcomposer_tag = ET.Element("composer")
     Wtitle_tag.addnext(Wcomposer_tag)
@@ -308,17 +308,22 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
         bibl_tag.text= source
         Mrepository_tag.text = source.strip()
 
-
-    if "dc:description" in result:
-        
         #titre
+    if "dc:description" in result:
+        print("Titre uniforme")
         titre = result["dc:description"][0]
+        if len(titre)< 2:
+            titre = result["dc:description"]
         tu_start = titre.find("[")
         tu_end = titre.find("]")
         titre = titre[tu_start:tu_end+1].strip()
-        FTtitle_tag.text = titre
-        Wtitle_tag.text=titre
-        Mtitle_tag.text=titre
+    else:
+        titre = result["dc:title"]
+    FTtitle_tag.text = titre
+    Wtitle_tag.text=titre
+    Mtitle_tag.text=titre
+
+    print("titre=", titre)
         
 
         #l'éditeur

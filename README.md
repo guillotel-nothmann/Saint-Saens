@@ -1,14 +1,17 @@
 # Saint-Saens
 Créé dans le cadre de l'ANR Collabscore (https://anr.fr/Projet-ANR-20-CE27-0014), ce dépôt regroupe les transcriptions en fichier MEI de l'ensemble des oeuvres de Camille Saint-Saens (à l'exception des opéras) numérisées par la BnF sur https://gallica.bnf.fr dans l'optique d'être versé sur la plateforme http://neuma.huma-num.fr/.
 
+
+
+
+## Transcriptions
+
 Dans un premier temps, nous réalisons ces transcriptions avec le logiciel OMR "PhotoScore & NotateMe", mais nous utiliserons à terme l'application développée par notre équipe.
 
 Les informations sur les processus de transcription et le suivi des versions se retrouvent au sein des fichiers MEI.
 
 Les transcriptions feront ultérieurement objet d'une vérification en interne.
 
-
-## Transcriptions
 Le dossier Transcription contient ces numérisations accompagnées de leur version en musicXML, musx, sib. Un fichier JSON comprenant uen sélection de métadonnés pour la plateforme neuma et le PDF de la numérisation sur Gallica accompagne également chaque fichier.
 Les numérisations sont cataloguées par un identifiant constitué d'une lettre (R ou C), de trois chiffres, d'un tiret "_" et d'un ou deux caractères.
 

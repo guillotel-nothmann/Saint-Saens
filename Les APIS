@@ -1,8 +1,0 @@
-https://gallica.bnf.fr/SRU?version=1.2&operation=sarchRetrieve&query= " la recherche "
-
-entrpot : oai.bnf.fr/oai2//OAIHandler?verb="action"
-ex action : "ListSets" 
-
-
-
-lien test : ark:/12148/cb42000454s

@@ -91,7 +91,7 @@ def arkyer(gmei_file, ark, Gprenom,Gnom,Eprenom,Enom):
     #arkyer prend l'ark et l'insère dans le fichier MEI.
     global mei_file
     parser = ET.XMLParser(remove_blank_text=True)
-    tree = ET.parse(gmei_file, parser)
+
 
     meiHead_tag = tree.find(".//mei:meiHead", ns)
 

@@ -91,7 +91,7 @@ def arkyer(gmei_file, ark, Gprenom,Gnom,Eprenom,Enom):
     #arkyer prend l'ark et l'insère dans le fichier MEI.
     global mei_file
     parser = ET.XMLParser(remove_blank_text=True)
-
+    tree = ET.parse(gmei_file, parser)
 
     meiHead_tag = tree.find(".//mei:meiHead", ns)
 
@@ -267,7 +267,11 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     #compositeur
     if "dc:creator" in result:
         composer = result["dc:creator"]
-        composer = composer[:composer.find("(")].strip()
+        if type(composer) is list:
+            composer = composer[0]
+            composer = composer[:composer.find("(")].strip()
+        else:
+            composer = composer[:composer.find("(")].strip()
         FTcomposer_tag.text = composer
         Wcomposer_tag.text = composer
         Mcomposer_tag.text=composer

@@ -42,5 +42,5 @@ avec l'extension ``json``  dans le dossier ``json``.
 La commande suivante devrait produire un fichier ``Brahms.json`` dans ``json``. 
 ```
 python3 corpus_utils.py -f Brahms.mei -a extract
-```
 
+```

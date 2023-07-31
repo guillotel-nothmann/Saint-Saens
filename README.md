@@ -1,5 +1,5 @@
 # Saint-Saens
-Créé dans le cadre de l'ANR Collabscore (https://anr.fr/Projet-ANR-20-CE27-0014), ce dépôt regroupe les transcriptions en fichier MEI de l'ensemble des oeuvres de Camille Saint-Saens (à l'exception des opéras) numérisées par la BnF sur https://gallica.bnf.fr dans l'optique d'être versé sur la plateforme http://neuma.huma-num.fr/.
+Créé dans le cadre de l'ANR Collabscore (https://anr.fr/Projet-ANR-20-CE27-0014), ce dépôt regroupe les transcriptions électronique de l'ensemble des oeuvres de Camille Saint-Saens (à l'exception des opéras) numérisées par la BnF sur https://gallica.bnf.fr dans l'optique d'être versé sur la plateforme http://neuma.huma-num.fr/.
 
 
 

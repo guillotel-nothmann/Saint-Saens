@@ -201,6 +201,8 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     Ethis_app_tag = ET.SubElement(app_info_tag,'application')
     Ethis_app_tag.set("version","1.0")
     Ethis_app_name_tag = ET.SubElement(Ethis_app_tag, "name")
+    Ethis_app_date_tag = ET.SubElement(Ethis_app_name_tag, "date")
+    Ethis_app_date_tag .set("isodate", datetime.datetime.now().strftime("%Y-%m-%d") )
     Ethis_app_name_tag.text="GallicOvuM"
     Ethis_app_p_tag = ET.SubElement(Ethis_app_tag, "p")
     Ethis_app_p_tag.text = "Metadata creation by extracting from Gallica"
@@ -254,7 +256,7 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     revisions_p_tag.text="Creation of metadata by extraction from Gallica"
 
     revision_date_tag = ET.SubElement(change_tag, "date")
-    revision_date_tag.set("isodate", str(datetime.datetime.now().strftime("%Y-%m-%d") ))
+    revision_date_tag.set("isodate", datetime.datetime.now().strftime("%Y-%m-%d") )
     revision_resp_tag = ET.SubElement(change_tag, "resp")
     revision_resp_tag.text = "GallicOvuM"
    

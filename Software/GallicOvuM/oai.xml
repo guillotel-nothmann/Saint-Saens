@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<results ResultsGenerationSearchTime="0:00:00.014" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+ <visibility_rights>
+  all
+ </visibility_rights>
+ <notice>
+  <record>
+   <header>
+    <identifier>
+     oai:bnf.fr:gallica/ark:/12148/bpt6k1509586d
+    </identifier>
+    <datestamp>
+     2023-07-21
+    </datestamp>
+    <setSpec>
+     gallica:typedoc:partitions
+    </setSpec>
+   </header>
+   <metadata>
+    <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+     <dc:identifier>
+      https://gallica.bnf.fr/ark:/12148/bpt6k1509586d
+     </dc:identifier>
+     <dc:identifier>
+      https://gallica.bnf.frNUMM-1509586
+     </dc:identifier>
+     <dc:title>
+      Prière, pour violon, avec accompagnement d'orgue. (Op. 158 bis)
+     </dc:title>
+     <dc:creator>
+      Saint-Saëns, Camille (1835-1921). Compositeur
+     </dc:creator>
+     <dc:publisher>
+      Durand et C.ie, éditeurs (Paris)
+     </dc:publisher>
+     <dc:description>
+      Titre uniforme : Saint-Saëns, Camille (1835-1921). Compositeur. [Prière. Violoncelle, orgue. R 143. Sol majeur]
+     </dc:description>
+     <dc:relation>
+      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb13964191r
+     </dc:relation>
+     <dc:relation>
+      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43252538t
+     </dc:relation>
+     <dc:type>
+      Genre musical : divers
+     </dc:type>
+     <dc:source>
+      Bibliothèque nationale de France, département Musique, FOL-VM9-1823
+     </dc:source>
+     <dc:rights xml:lang="fre">
+      domaine public
+     </dc:rights>
+     <dc:rights xml:lang="eng">
+      public domain
+     </dc:rights>
+     <dc:format>
+      application/pdf
+     </dc:format>
+     <dc:format>
+      Nombre total de vues :  16
+     </dc:format>
+    </oai_dc:dc>
+   </metadata>
+  </record>
+ </notice>
+ <provenance>
+  bnf.fr
+ </provenance>
+ <source>
+  Bibliothèque nationale de France, département Musique, FOL-VM9-1823
+ </source>
+ <typedoc>
+  partition
+ </typedoc>
+ <nqamoyen>
+  0.0
+ </nqamoyen>
+ <title>
+  Prière, pour violon, avec accompagnement d'orgue. (Op. 158 bis)
+ </title>
+ <date nbIssue="1"/>
+ <first_indexation_date>
+  23/07/2023
+ </first_indexation_date>
+ <streamable>
+  false
+ </streamable>
+</results>

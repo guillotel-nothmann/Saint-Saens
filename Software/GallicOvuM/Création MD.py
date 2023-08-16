@@ -498,15 +498,6 @@ while len(altlist) > 0:
     Ethis_app_p_tag = ET.SubElement(Ethis_app_tag, "p")
     xmlId(Ethis_app_p_tag)
     Ethis_app_p_tag.text = "Metadata creation by extracting from Gallica"
-    Ephotoscore_tag = ET.SubElement(app_info_tag,'application')
-    xmlId(Ephotoscore_tag)
-    Ephotoscore_tag.set("version","2020.1.14 (9.0.2) - 14th January, 2020")
-    Ephotoscore_name_tag = ET.SubElement(Ephotoscore_tag, "name")
-    xmlId(Ephotoscore_name_tag)
-    Ephotoscore_name_tag.text = "PhotoScore & NotateMe"
-    Ephotoscore_p_tag = ET.SubElement(Ephotoscore_tag, "p")
-    xmlId(Ephotoscore_p_tag)
-    Ephotoscore_p_tag.text = "Engraving by Optical Music Recognition"
     EprojectDesc_tag=ET.SubElement(encodingDesc_tag,"projectDesc")
     xmlId(EprojectDesc_tag)
     EprojectDesc_tag.text="ANR CollabScore (https://anr.fr/Projet-ANR-20-CE27-0014) - IReMus UMR 8223  Aurélien Balland Chatignon, Thomas Bottini, Christophe Guillotel-Nothmann, Fabien Guilloux, Simon Raguet."

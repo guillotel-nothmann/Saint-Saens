@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/3.1/partwise.dtd">
 <score-partwise version="3.1">
-  <movement-title>DANSE MACABRE</movement-title>
   <identification>
-    <creator type="composer">C. Saint-Saëns</creator>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-03-24</encoding-date>
+      <encoding-date>2023-08-21</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -61,14 +59,6 @@
     <lyric-font font-family="Finale Lyrics" font-size="6.6"/>
   </defaults>
   <credit page="1">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1787" font-size="17" justify="center" valign="top">DANSE MACABRE</credit-words>
-  </credit>
-  <credit page="1">
-    <credit-type>composer</credit-type>
-    <credit-words default-x="1183" default-y="1721" justify="right" valign="top">C. Saint-Saëns</credit-words>
-  </credit>
-  <credit page="1">
     <credit-type>part name</credit-type>
     <credit-words default-x="254" default-y="1798" valign="top">Score</credit-words>
   </credit>
@@ -76,73 +66,37 @@
     <credit-type>page number</credit-type>
     <credit-words default-x="256" default-y="1822" valign="top">2</credit-words>
   </credit>
-  <credit page="2">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
-  </credit>
   <credit page="3">
     <credit-type>page number</credit-type>
     <credit-words default-x="1181" default-y="1822" halign="right" valign="top">3</credit-words>
-  </credit>
-  <credit page="3">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
   </credit>
   <credit page="4">
     <credit-type>page number</credit-type>
     <credit-words default-x="255" default-y="1822" valign="top">4</credit-words>
   </credit>
-  <credit page="4">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
-  </credit>
   <credit page="5">
     <credit-type>page number</credit-type>
     <credit-words default-x="1182" default-y="1822" halign="right" valign="top">5</credit-words>
-  </credit>
-  <credit page="5">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
   </credit>
   <credit page="6">
     <credit-type>page number</credit-type>
     <credit-words default-x="257" default-y="1822" valign="top">6</credit-words>
   </credit>
-  <credit page="6">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
-  </credit>
   <credit page="7">
     <credit-type>page number</credit-type>
     <credit-words default-x="1181" default-y="1822" halign="right" valign="top">7</credit-words>
-  </credit>
-  <credit page="7">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
   </credit>
   <credit page="8">
     <credit-type>page number</credit-type>
     <credit-words default-x="255" default-y="1822" valign="top">8</credit-words>
   </credit>
-  <credit page="8">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
-  </credit>
   <credit page="9">
     <credit-type>page number</credit-type>
     <credit-words default-x="1178" default-y="1822" halign="right" valign="top">9</credit-words>
   </credit>
-  <credit page="9">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
-  </credit>
   <credit page="10">
     <credit-type>page number</credit-type>
     <credit-words default-x="259" default-y="1822" valign="top">10</credit-words>
-  </credit>
-  <credit page="10">
-    <credit-type>title</credit-type>
-    <credit-words default-x="718" default-y="1822" justify="center" valign="top">DANSE MACABRE</credit-words>
   </credit>
   <part-list>
     <score-part id="P1">
@@ -1675,6 +1629,11 @@
         <stem default-y="-40">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
+        <notations>
+          <articulations>
+            <staccato default-x="215" default-y="3" placement="above"/>
+          </articulations>
+        </notations>
       </note>
       <note default-x="29">
         <chord/>
@@ -21670,7 +21629,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="8" default-x="3" default-y="-22" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="5" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="61">
@@ -21706,7 +21665,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-11" bezier-y="6" default-x="5" default-y="-19" number="1" type="stop"/>
+          <slur bezier-x="-9" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <note default-x="91">
@@ -21838,7 +21797,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="7" default-x="7" default-y="-18" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="4" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="62">
@@ -21874,7 +21833,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-8" bezier-y="7" default-x="5" default-y="-18" number="1" type="stop"/>
+          <slur bezier-x="-9" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <forward>
@@ -22004,7 +21963,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="7" default-x="7" default-y="-18" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="5" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="59">
@@ -22040,7 +21999,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-8" bezier-y="7" default-x="5" default-y="-18" number="1" type="stop"/>
+          <slur bezier-x="-9" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <forward>
@@ -22188,7 +22147,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="7" default-x="7" default-y="-18" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="5" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="131">
@@ -22224,7 +22183,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-8" bezier-y="7" default-x="5" default-y="-18" number="1" type="stop"/>
+          <slur bezier-x="-8" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <forward>
@@ -22354,7 +22313,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="7" default-x="7" default-y="-18" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="5" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="68">
@@ -22390,7 +22349,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-7" bezier-y="7" default-x="4" default-y="-18" number="1" type="stop"/>
+          <slur bezier-x="-8" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <forward>
@@ -22520,7 +22479,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="7" default-x="7" default-y="-18" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="5" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="68">
@@ -22556,7 +22515,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-8" bezier-y="7" default-x="4" default-y="-18" number="1" type="stop"/>
+          <slur bezier-x="-9" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <forward>
@@ -22686,7 +22645,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="7" default-x="7" default-y="-18" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="5" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="68">
@@ -22722,7 +22681,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-8" bezier-y="7" default-x="5" default-y="-18" number="1" type="stop"/>
+          <slur bezier-x="-9" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <forward>
@@ -22852,7 +22811,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="7" default-x="6" default-y="-18" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="5" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="68">
@@ -22888,7 +22847,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-8" bezier-y="7" default-x="5" default-y="-18" number="1" type="stop"/>
+          <slur bezier-x="-8" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <forward>
@@ -23018,7 +22977,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tuplet number="1" placement="above" type="start"/>
-          <slur bezier-x="8" bezier-y="7" default-x="7" default-y="-18" number="1" placement="below" type="start"/>
+          <slur bezier-x="9" bezier-y="-7" default-x="5" default-y="-20" number="1" placement="below" type="start"/>
         </notations>
       </note>
       <note default-x="69">
@@ -23054,7 +23013,7 @@
         <beam number="1">end</beam>
         <notations>
           <tuplet number="1" type="stop"/>
-          <slur bezier-x="-8" bezier-y="7" default-x="4" default-y="-18" number="1" type="stop"/>
+          <slur bezier-x="-9" bezier-y="-7" default-x="5" default-y="-20" number="1" type="stop"/>
         </notations>
       </note>
       <forward>

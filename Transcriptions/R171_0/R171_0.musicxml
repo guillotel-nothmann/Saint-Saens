@@ -4,7 +4,7 @@
   <identification>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-05-15</encoding-date>
+      <encoding-date>2023-08-21</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -98,7 +98,6 @@
     </score-part>
     <part-group number="1" type="start">
       <group-name>Piano</group-name>
-      <group-abbreviation>Pno</group-abbreviation>
       <group-symbol default-x="-5">brace</group-symbol>
       <group-barline>yes</group-barline>
     </part-group>
@@ -6080,6 +6079,11 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem default-y="23.5">up</stem>
+        <notations>
+          <articulations>
+            <staccato default-x="10" default-y="28" placement="above"/>
+          </articulations>
+        </notations>
       </note>
       <note default-x="56">
         <chord/>

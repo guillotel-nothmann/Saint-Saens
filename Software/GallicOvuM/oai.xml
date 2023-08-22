@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<results ResultsGenerationSearchTime="0:00:00.123" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+ <visibility_rights>
+  all
+ </visibility_rights>
+ <notice>
+  <record>
+   <header>
+    <identifier>
+     oai:bnf.fr:gallica/ark:/12148/bpt6k1162049x
+    </identifier>
+    <datestamp>
+     2022-09-23
+    </datestamp>
+    <setSpec>
+     gallica:typedoc:partitions
+    </setSpec>
+   </header>
+   <metadata>
+    <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+     <dc:identifier>
+      https://gallica.bnf.fr/ark:/12148/bpt6k1162049x
+     </dc:identifier>
+     <dc:title>
+      La coccinelle / poésie de Victor Hugo ; musique de C. Saint-Saëns
+     </dc:title>
+     <dc:creator>
+      Saint-Saëns, Camille (1835-1921). Compositeur
+     </dc:creator>
+     <dc:contributor>
+      Hugo, Victor (1802-1885). Auteur du texte
+     </dc:contributor>
+     <dc:contributor>
+      Capoul, Victor (1839-1924). Dédicataire
+     </dc:contributor>
+     <dc:publisher>
+      [G. Hartmann] (Paris)
+     </dc:publisher>
+     <dc:description>
+      Titre uniforme : Saint-Saëns, Camille (1835-1921). Compositeur. [La coccinelle]
+     </dc:description>
+     <dc:relation>
+      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb167763796
+     </dc:relation>
+     <dc:date>
+      186.
+     </dc:date>
+     <dc:format>
+      3 p. : couv. ill. ; 35 cm
+     </dc:format>
+     <dc:relation>
+      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43863035w
+     </dc:relation>
+     <dc:type>
+      Genre musical : mélodie
+     </dc:type>
+     <dc:source>
+      Exemplaire localisé à la Médiathèque Hector Berlioz (CNSMDP), D-9658 (21)
+     </dc:source>
+     <dc:rights xml:lang="fre">
+      domaine public
+     </dc:rights>
+     <dc:rights xml:lang="eng">
+      public domain
+     </dc:rights>
+     <dc:format>
+      application/pdf
+     </dc:format>
+     <dc:format>
+      Nombre total de vues :  4
+     </dc:format>
+     <dc:description>
+      Mélodies acc. de piano -- +* 1900......- 1999......+:20e siècle:
+     </dc:description>
+     <dc:description>
+      Mélodies françaises -- +* 1900......- 1999......+:20e siècle:
+     </dc:description>
+    </oai_dc:dc>
+   </metadata>
+  </record>
+ </notice>
+ <provenance>
+  bnf.fr
+ </provenance>
+ <source>
+  Exemplaire localisé à la Médiathèque Hector Berlioz (CNSMDP), D-9658 (21)
+ </source>
+ <typedoc>
+  partition
+ </typedoc>
+ <nqamoyen>
+  0.0
+ </nqamoyen>
+ <title>
+  La coccinelle / poésie de Victor Hugo ; musique de C. Saint-Saëns
+ </title>
+ <date nbIssue="1">
+  186.
+ </date>
+ <first_indexation_date>
+  13/10/2014
+ </first_indexation_date>
+ <streamable>
+  false
+ </streamable>
+</results>

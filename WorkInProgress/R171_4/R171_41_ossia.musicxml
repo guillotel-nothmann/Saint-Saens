@@ -7,7 +7,7 @@
     <creator type="lyricist">Mouvt modéré de Valse.</creator>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-03-24</encoding-date>
+      <encoding-date>2023-08-21</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -882,7 +882,7 @@
         <stem default-y="-20">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="-7" bezier-y="-9" default-x="6" default-y="-70" number="1" type="stop"/>
           <slur bezier-x="16" bezier-y="66" default-x="12" default-y="78" number="1" placement="above" type="start"/>
           <articulations>
@@ -943,7 +943,7 @@
         <stem default-y="-22.5">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="182">
@@ -1032,7 +1032,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop"/>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="16" bezier-y="66" default-x="12" default-y="78" number="1" placement="above" type="start"/>
         </notations>
       </note>
@@ -1084,7 +1084,7 @@
         <stem default-y="-22.5">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="108">
@@ -1173,7 +1173,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop"/>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="19" bezier-y="72" default-x="13" default-y="73" number="1" placement="above" type="start"/>
         </notations>
       </note>
@@ -1228,7 +1228,7 @@
         <stem default-y="-22.5">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="121">
@@ -1317,7 +1317,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop"/>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="19" bezier-y="72" default-x="13" default-y="73" number="1" placement="above" type="start"/>
         </notations>
       </note>
@@ -1372,7 +1372,7 @@
         <stem default-y="-22.5">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="120">
@@ -1464,7 +1464,7 @@
         <stem default-y="-20">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="-7" bezier-y="-9" default-x="6" default-y="-65" number="1" type="stop"/>
           <slur bezier-x="16" bezier-y="68" default-x="12" default-y="81" number="1" placement="above" type="start"/>
           <articulations>
@@ -1521,7 +1521,7 @@
         <stem default-y="-22">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="185">
@@ -1614,7 +1614,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop"/>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="16" bezier-y="68" default-x="12" default-y="81" number="1" placement="above" type="start"/>
         </notations>
       </note>
@@ -1667,7 +1667,7 @@
         <stem default-y="-22">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="112">
@@ -1760,7 +1760,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop"/>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="17" bezier-y="70" default-x="13" default-y="85" number="1" placement="above" type="start"/>
           <articulations>
             <accent default-x="-2" default-y="-66" placement="below"/>
@@ -1816,7 +1816,7 @@
         <stem default-y="-22">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="118">
@@ -1904,7 +1904,7 @@
         <stem default-y="-20">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="17" bezier-y="71" default-x="12" default-y="85" number="1" placement="above" type="start"/>
           <articulations>
             <accent default-x="-2" default-y="-66" placement="below"/>
@@ -1961,7 +1961,7 @@
         <stem default-y="-22">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="117">
@@ -2052,7 +2052,7 @@
         <stem default-y="-20">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="-7" bezier-y="-8" default-x="6" default-y="-55" number="1" type="stop"/>
           <slur bezier-x="14" bezier-y="59" default-x="13" default-y="93" number="1" placement="above" type="start"/>
           <articulations>
@@ -2110,7 +2110,7 @@
         <stem default-y="-22">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="191">
@@ -2208,7 +2208,7 @@
         <stem default-y="39">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="-23" bezier-y="-21" default-x="6" default-y="-50" number="1" type="stop"/>
           <slur bezier-x="13" bezier-y="59" default-x="13" default-y="152" number="1" placement="above" type="start"/>
           <articulations>
@@ -2266,7 +2266,7 @@
         <stem default-y="36">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="110">
@@ -2356,7 +2356,7 @@
         <stem default-y="-20">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="-23" bezier-y="-17" default-x="6" default-y="-55" number="1" type="stop"/>
           <slur bezier-x="14" bezier-y="59" default-x="13" default-y="93" number="1" placement="above" type="start"/>
           <articulations>
@@ -2414,7 +2414,7 @@
         <stem default-y="-22">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="117">
@@ -2501,7 +2501,7 @@
         <stem default-y="39">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="-23" bezier-y="-21" default-x="6" default-y="-50" number="1" type="stop"/>
           <slur bezier-x="13" bezier-y="59" default-x="13" default-y="152" number="1" placement="above" type="start"/>
           <articulations>
@@ -2559,7 +2559,7 @@
         <stem default-y="36">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="111">
@@ -2654,7 +2654,7 @@
         <stem default-y="-20">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="-7" bezier-y="-8" default-x="6" default-y="-56" number="1" type="stop"/>
           <slur bezier-x="14" bezier-y="59" default-x="13" default-y="93" number="1" placement="above" type="start"/>
           <articulations>
@@ -2712,7 +2712,7 @@
         <stem default-y="-22">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="191">
@@ -2799,7 +2799,7 @@
         <stem default-y="38">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="-22" bezier-y="-21" default-x="6" default-y="-50" number="1" type="stop"/>
           <slur bezier-x="13" bezier-y="59" default-x="13" default-y="151" number="1" placement="above" type="start"/>
           <articulations>
@@ -2857,7 +2857,7 @@
         <stem default-y="36">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="110">
@@ -2951,7 +2951,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop"/>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="13" bezier-y="59" default-x="13" default-y="151" number="1" placement="above" type="start"/>
         </notations>
       </note>
@@ -3005,7 +3005,7 @@
         <stem default-y="36">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="110">
@@ -3099,7 +3099,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop"/>
-          <tuplet number="1" placement="above" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
           <slur bezier-x="14" bezier-y="59" default-x="13" default-y="151" number="1" placement="above" type="start"/>
         </notations>
       </note>
@@ -3153,7 +3153,7 @@
         <stem default-y="36">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <tuplet number="1" placement="below" type="start"/>
+          <tuplet bracket="no" number="1" show-number="none" type="start"/>
         </notations>
       </note>
       <note default-x="115">

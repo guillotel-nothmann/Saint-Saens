@@ -7247,64 +7247,43 @@ Op:40</rend>
                   </scoreDef>
                   <measure xml:id="mqohc2u" n="253">
                      <ossia>
-                     <staff xml:id="s1v1l1bo" n="1">
-                        <layer xml:id="l1unogbq" n="1">
-                           <space xml:id="spqvzo3" dur.ppq="48" dur="2" />
-                           <space xml:id="su8ye22" dur.ppq="24" dur="4" />
-                        </layer>
-                     </staff>
-                     <oStaff>
-                        <layer xml:id="lunrv36" n="1">
-                        <space xml:id="s5sip84" dur.ppq="4" dur="2" />
-                        <space xml:id="s11t2jj8" dur.ppq="2" dur="4" />
-                     </layer>
-                  </oStaff>
-                     <staff xml:id="sclggj" n="2">
-                        <layer xml:id="l1yg3fxi" n="1">
-                           <beam xml:id="btesfjn">
-                              <tuplet xml:id="t1rxn94t" num="5" numbase="4" num.place="above" bracket.place="above" bracket.visible="true">
-                                 <note xml:id="n1pdy6mn" dur.ppq="48" dur="16" oct="3" pname="g" stem.dir="up" />
-                                 <note xml:id="n11lw5fy" dur.ppq="48" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f" />
-                                 <note xml:id="n16g30iv" dur.ppq="48" dur="16" oct="5" pname="c" stem.dir="up" />
-                                 <note xml:id="ne7zj79" dur.ppq="48" dur="16" oct="5" pname="e" stem.dir="down" accid.ges="f" />
-                                 <note xml:id="n1oywhda" dur.ppq="48" dur="16" oct="6" pname="c" stem.dir="down" />
-                              </tuplet>
-                              <tuplet xml:id="t9ywfu" num="5" numbase="4" num.place="below" bracket.place="below" bracket.visible="true">
-                                 <note xml:id="nvo62v6" dur.ppq="48" dur="16" oct="6" pname="g" stem.dir="down" />
-                                 <note xml:id="ns7qfrg" dur.ppq="48" dur="16" oct="6" pname="c" stem.dir="down" />
-                                 <note xml:id="n11r1n7x" dur.ppq="48" dur="16" oct="5" pname="e" stem.dir="down" accid.ges="f" />
-                                 <note xml:id="n1pncjpx" dur.ppq="48" dur="16" oct="5" pname="c" stem.dir="up" />
-                                 <note xml:id="n9zea6t" dur.ppq="48" dur="16" oct="4" pname="e" stem.dir="up" accid.ges="f" />
-                              </tuplet>
-                           </beam>
-                           <note xml:id="n1vramas" dur.ppq="240" dur="4" oct="3" pname="g" stem.dir="up">
-                              <artic xml:id="a185ghu9" artic="acc" place="below" />
-                           </note>
-                        </layer>
-                     </staff>
+                        <staff xml:id="m-44" n="1">
+                           <layer xml:id="m-45" n="1">
+                               <mRest xml:id="m-46" tstamp.real="00:00:00"/>
+                           </layer>
+                       </staff>
+                       <staff xml:id="m-47" n="2">
+                           <layer xml:id="m-48" n="1">
+                               <tuplet xml:id="m-51" dur.ppq="256" endid="#m-54" num="3" num.format="count" numbase="2" startid="#m-49">
+                                   <beam xml:id="m-50">
+                                       <note xml:id="m-49" dur="8" dur.ppq="85" oct="3" pname="g" pnum="55" stem.dir="down" tstamp.real="00:00:00" vel="0"/>
+                                       <note xml:id="m-52" dur="8" dur.ppq="85" oct="4" pname="e" pnum="63" stem.dir="down" tstamp.real="00:00:00.199" vel="0">
+                                           <accid xml:id="m-53" accid.ges="f"/>
+                                       </note>
+                                       <note xml:id="m-54" dur="8" dur.ppq="85" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:00.398" vel="0"/>
+                                       <chord xml:id="m-55" dur="8" dur.ppq="128" stem.dir="down" tstamp.real="00:00:00.6">
+                                           <note xml:id="m-56" dur="8" dur.ppq="85" oct="5" pname="c" pnum="72" vel="0"/>
+                                           <note xml:id="m-57" dur="8" dur.ppq="85" oct="5" pname="g" pnum="79" vel="0"/>
+                                       </chord>
+                                       <note xml:id="m-59" dur="8" dur.ppq="85" oct="4" pname="g" pnum="67" stem.dir="down" tstamp.real="00:00:00.799" vel="0"/>
+                                       <note xml:id="m-60" dur="8" dur.ppq="85" oct="4" pname="e" pnum="63" stem.dir="down" tstamp.real="00:00:00.998" vel="0">
+                                           <accid xml:id="m-61" accid.ges="f"/>
+                                       </note>
+                                   </beam>
+                               </tuplet>
+                               <note xml:id="m-62" artic="acc" dur="4" dur.ppq="256" oct="3" pname="g" pnum="55" stem.dir="up" tstamp.real="00:00:01.2" vel="0"/>
+                           </layer>
+                       </staff>
+                       <tie xml:id="m-63" endid="#m-76" startid="#m-62"/>
+                       <slur xml:id="m-64" endid="#m-54" layer="1" staff="2" startid="#m-49" tstamp="1" tstamp2="0m+1.6641"/>
+                       <slur xml:id="m-65" endid="#m-60" layer="1" staff="2" startid="#m-55" tstamp="2" tstamp2="0m+2.6641"/>
+                       <anchoredText xml:id="m-66">
+                           <persName xml:id="m-67" role="Composer">C. Saint- Sabns.</persName>
+                       </anchoredText>
+                       <anchoredText xml:id="m-68">
+                           <title xml:id="m-69"/>
+                       </anchoredText>
 
-                     <oStaff>
-                        <layer xml:id="lls24cb" n="1">
-                           <beam xml:id="b1un6ol8">
-                              <tuplet xml:id="t1tn4gha" num="3" numbase="2" num.place="above" bracket.place="above">
-                                 <note xml:id="ntz59th" dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up" />
-                                 <note xml:id="nq38q30" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" accid.ges="f" />
-                                 <note xml:id="n1xdmmi8" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="down" />
-                              </tuplet>
-                              <tuplet xml:id="t1nwcbfw" num="3" numbase="2" num.place="below" bracket.place="below">
-                                 <chord xml:id="ctyx2sq" dur.ppq="2" dur="8" stem.dir="down">
-                                    <note xml:id="nwx7kq6" oct="5" pname="c" />
-                                    <note xml:id="nlvxmbb" oct="5" pname="g" />
-                                 </chord>
-                                 <note xml:id="n138iyy1" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="down" />
-                                 <note xml:id="nkb2t2n" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" accid.ges="f" />
-                              </tuplet>
-                           </beam>
-                           <note xml:id="n1a87g4s" dur.ppq="6" dur="4" oct="3" pname="g" stem.dir="up">
-                              <artic xml:id="a1ycr2li" artic="acc" place="below" />
-                           </note>
-                        </layer>
-                     </oStaff>
 
                   </ossia>
                   </measure>

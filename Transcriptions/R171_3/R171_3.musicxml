@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/3.1/partwise.dtd">
 <score-partwise version="3.1">
-  <movement-title></movement-title>
+  <movement-title>DANSE MACABRE</movement-title>
   <identification>
+    <creator type="composer">Camille SAINT-SAËNS</creator>
+    <creator type="lyricist">par L'AUTEUR.</creator>
     <encoding>
       <software>Finale v27.0 for Mac</software>
-      <encoding-date>2023-07-11</encoding-date>
+      <encoding-date>2023-08-21</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
       <supports element="accidental" type="yes"/>
@@ -147,6 +149,20 @@
       </midi-instrument>
     </score-part>
     <part-group number="1" type="stop"/>
+    <score-part id="P3">
+      <part-name print-object="no">MusicXML Part</part-name>
+      <group>score</group>
+      <score-instrument id="P3-I4">
+        <instrument-name>SmartMusicSoftSynth</instrument-name>
+        <virtual-instrument/>
+      </score-instrument>
+      <midi-device>SmartMusicSoftSynth</midi-device>
+      <midi-instrument id="P3-I4">
+        <midi-channel>4</midi-channel>
+        <midi-bank>15489</midi-bank>
+        <midi-program>1</midi-program>
+      </midi-instrument>
+    </score-part>
   </part-list>
   <!--=========================================================-->
   <part id="P1">
@@ -28746,23 +28762,6 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <barline location="right">
-        <bar-style>light-heavy</bar-style>
-      </barline>
-    </measure>
-    <!--=======================================================-->
-    <measure number="471" width="1324">
-      <print new-page="yes"/>
-      <attributes>
-        <staff-details>
-          <staff-size>100</staff-size>
-        </staff-details>
-      </attributes>
-      <note>
-        <rest measure="yes"/>
-        <duration>72</duration>
-        <voice>1</voice>
       </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
@@ -103500,35 +103499,6 @@
         <bar-style>light-heavy</bar-style>
       </barline>
     </measure>
-    <!--=======================================================-->
-    <measure number="471" width="1324">
-      <print new-page="yes">
-        <staff-layout number="1">
-          <staff-distance>119</staff-distance>
-        </staff-layout>
-        <staff-layout number="2">
-          <staff-distance>94</staff-distance>
-        </staff-layout>
-      </print>
-      <note>
-        <rest measure="yes"/>
-        <duration>108</duration>
-        <voice>1</voice>
-        <staff>1</staff>
-      </note>
-      <backup>
-        <duration>108</duration>
-      </backup>
-      <note>
-        <rest measure="yes"/>
-        <duration>108</duration>
-        <voice>3</voice>
-        <staff>2</staff>
-      </note>
-      <barline location="right">
-        <bar-style>light-heavy</bar-style>
-      </barline>
-    </measure>
   </part>
   <!--=========================================================-->
   <part id="P3">
@@ -109312,23 +109282,6 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>whole</type>
-      </note>
-      <barline location="right">
-        <bar-style>light-heavy</bar-style>
-      </barline>
-    </measure>
-    <!--=======================================================-->
-    <measure number="471" width="1324">
-      <print new-page="yes"/>
-      <attributes>
-        <staff-details>
-          <staff-size>100</staff-size>
-        </staff-details>
-      </attributes>
-      <note>
-        <rest measure="yes"/>
-        <duration>6</duration>
-        <voice>1</voice>
       </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>

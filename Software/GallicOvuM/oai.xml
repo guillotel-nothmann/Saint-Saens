@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<results ResultsGenerationSearchTime="0:00:00.123" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+<results ResultsGenerationSearchTime="0:00:00.009" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
  <visibility_rights>
   all
  </visibility_rights>
@@ -7,10 +7,10 @@
   <record>
    <header>
     <identifier>
-     oai:bnf.fr:gallica/ark:/12148/bpt6k1162049x
+     oai:bnf.fr:gallica/ark:/12148/btv1b52502625c
     </identifier>
     <datestamp>
-     2022-09-23
+     2022-06-22
     </datestamp>
     <setSpec>
      gallica:typedoc:partitions
@@ -19,43 +19,49 @@
    <metadata>
     <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
      <dc:identifier>
-      https://gallica.bnf.fr/ark:/12148/bpt6k1162049x
+      https://gallica.bnf.fr/ark:/12148/btv1b52502625c
      </dc:identifier>
      <dc:title>
-      La coccinelle / poésie de Victor Hugo ; musique de C. Saint-Saëns
+      Danse macabre / paroles de Henri Cazalis ; musique de Saint-Saëns
      </dc:title>
+     <dc:relation>
+      Notice d'ensemble : http://catalogue.bnf.fr/ark:/12148/cb432522814
+     </dc:relation>
      <dc:creator>
       Saint-Saëns, Camille (1835-1921). Compositeur
      </dc:creator>
      <dc:contributor>
-      Hugo, Victor (1802-1885). Auteur du texte
+      Cazalis, Henri (1840-1909). Parolier
      </dc:contributor>
      <dc:contributor>
-      Capoul, Victor (1839-1924). Dédicataire
+      Jacquet, Gustave (1846-1909). Dédicataire
      </dc:contributor>
      <dc:publisher>
-      [G. Hartmann] (Paris)
+      Enoch père &amp; fils (Paris)
      </dc:publisher>
      <dc:description>
-      Titre uniforme : Saint-Saëns, Camille (1835-1921). Compositeur. [La coccinelle]
+      Titre uniforme : Saint-Saëns, Camille (1835-1921). Compositeur. [Danse macabre (Mélodie)]
      </dc:description>
      <dc:relation>
-      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb167763796
+      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb139390525
      </dc:relation>
      <dc:date>
-      186.
+      1873
      </dc:date>
+     <dc:identifier>
+      https://gallica.bnf.frCotage E. P. et F.
+     </dc:identifier>
      <dc:format>
-      3 p. : couv. ill. ; 35 cm
+      7 p. : couv. ill. ; 35 cm
      </dc:format>
      <dc:relation>
-      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43863035w
+      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb432522814
      </dc:relation>
      <dc:type>
       Genre musical : mélodie
      </dc:type>
      <dc:source>
-      Exemplaire localisé à la Médiathèque Hector Berlioz (CNSMDP), D-9658 (21)
+      Bibliothèque nationale de France, département Musique, VM7-99089
      </dc:source>
      <dc:rights xml:lang="fre">
       domaine public
@@ -67,7 +73,7 @@
       application/pdf
      </dc:format>
      <dc:format>
-      Nombre total de vues :  4
+      Nombre total de vues :  12
      </dc:format>
      <dc:description>
       Mélodies acc. de piano -- +* 1900......- 1999......+:20e siècle:
@@ -83,7 +89,7 @@
   bnf.fr
  </provenance>
  <source>
-  Exemplaire localisé à la Médiathèque Hector Berlioz (CNSMDP), D-9658 (21)
+  Bibliothèque nationale de France, département Musique, VM7-99089
  </source>
  <typedoc>
   partition
@@ -92,13 +98,13 @@
   0.0
  </nqamoyen>
  <title>
-  La coccinelle / poésie de Victor Hugo ; musique de C. Saint-Saëns
+  Danse macabre / paroles de Henri Cazalis ; musique de Saint-Saëns
  </title>
  <date nbIssue="1">
-  186.
+  1873
  </date>
  <first_indexation_date>
-  13/10/2014
+  25/06/2013
  </first_indexation_date>
  <streamable>
   false

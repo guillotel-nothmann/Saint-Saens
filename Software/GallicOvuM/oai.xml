@@ -7,10 +7,10 @@
   <record>
    <header>
     <identifier>
-     oai:bnf.fr:gallica/ark:/12148/btv1b52502625c
+     oai:bnf.fr:gallica/ark:/12148/bpt6k1509584k
     </identifier>
     <datestamp>
-     2022-06-22
+     2023-08-11
     </datestamp>
     <setSpec>
      gallica:typedoc:partitions
@@ -19,49 +19,34 @@
    <metadata>
     <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
      <dc:identifier>
-      https://gallica.bnf.fr/ark:/12148/btv1b52502625c
+      https://gallica.bnf.fr/ark:/12148/bpt6k1509584k
+     </dc:identifier>
+     <dc:identifier>
+      https://gallica.bnf.frNUMM-1509584
      </dc:identifier>
      <dc:title>
-      Danse macabre / paroles de Henri Cazalis ; musique de Saint-Saëns
+      Album du Gaulois
      </dc:title>
-     <dc:relation>
-      Notice d'ensemble : http://catalogue.bnf.fr/ark:/12148/cb432522814
-     </dc:relation>
-     <dc:creator>
-      Saint-Saëns, Camille (1835-1921). Compositeur
-     </dc:creator>
-     <dc:contributor>
-      Cazalis, Henri (1840-1909). Parolier
-     </dc:contributor>
-     <dc:contributor>
-      Jacquet, Gustave (1846-1909). Dédicataire
-     </dc:contributor>
      <dc:publisher>
-      Enoch père &amp; fils (Paris)
+      Ed. Delanchy et cie, imprimeur (Paris)
      </dc:publisher>
-     <dc:description>
-      Titre uniforme : Saint-Saëns, Camille (1835-1921). Compositeur. [Danse macabre (Mélodie)]
-     </dc:description>
-     <dc:relation>
-      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb139390525
-     </dc:relation>
      <dc:date>
-      1873
+      1885
      </dc:date>
-     <dc:identifier>
-      https://gallica.bnf.frCotage E. P. et F.
-     </dc:identifier>
+     <dc:description>
+      Présentation musicale : Partition pour piano, Partition pour chant-piano
+     </dc:description>
      <dc:format>
-      7 p. : couv. ill. ; 35 cm
+      253 p. : Couverture ornée ; 27 cm
      </dc:format>
      <dc:relation>
-      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb432522814
+      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb42166193q
      </dc:relation>
      <dc:type>
-      Genre musical : mélodie
+      Genre musical : divers
      </dc:type>
      <dc:source>
-      Bibliothèque nationale de France, département Musique, VM7-99089
+      Conservatoire, L-10386
      </dc:source>
      <dc:rights xml:lang="fre">
       domaine public
@@ -73,14 +58,8 @@
       application/pdf
      </dc:format>
      <dc:format>
-      Nombre total de vues :  12
+      Nombre total de vues :  283
      </dc:format>
-     <dc:description>
-      Mélodies acc. de piano -- +* 1900......- 1999......+:20e siècle:
-     </dc:description>
-     <dc:description>
-      Mélodies françaises -- +* 1900......- 1999......+:20e siècle:
-     </dc:description>
     </oai_dc:dc>
    </metadata>
   </record>
@@ -89,7 +68,7 @@
   bnf.fr
  </provenance>
  <source>
-  Bibliothèque nationale de France, département Musique, VM7-99089
+  Conservatoire, L-10386
  </source>
  <typedoc>
   partition
@@ -98,13 +77,13 @@
   0.0
  </nqamoyen>
  <title>
-  Danse macabre / paroles de Henri Cazalis ; musique de Saint-Saëns
+  Album du Gaulois
  </title>
  <date nbIssue="1">
-  1873
+  1885
  </date>
  <first_indexation_date>
-  25/06/2013
+  13/08/2023
  </first_indexation_date>
  <streamable>
   false

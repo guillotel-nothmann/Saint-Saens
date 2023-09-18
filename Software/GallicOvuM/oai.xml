@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<results ResultsGenerationSearchTime="0:00:00.013" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+<results ResultsGenerationSearchTime="0:00:00.194" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
  <visibility_rights>
   all
  </visibility_rights>
@@ -7,10 +7,10 @@
   <record>
    <header>
     <identifier>
-     oai:bnf.fr:gallica/ark:/12148/bd6t54169489m
+     oai:bnf.fr:gallica/ark:/12148/bpt6k3939359
     </identifier>
     <datestamp>
-     2023-06-16
+     2022-06-22
     </datestamp>
     <setSpec>
      gallica:typedoc:partitions
@@ -19,43 +19,31 @@
    <metadata>
     <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
      <dc:identifier>
-      https://gallica.bnf.fr/ark:/12148/bd6t54169489m
-     </dc:identifier>
-     <dc:identifier>
-      https://gallica.bnf.frNUMS-104169489
+      https://gallica.bnf.fr/ark:/12148/bpt6k3939359
      </dc:identifier>
      <dc:title>
-      Oeuvres pour le chant. , Canzonetta toscana / par Camille Saint-Saëns
+      Avril, poésie de Rémy Belleau. Chant et piano. (Vieilles chansons)
      </dc:title>
      <dc:creator>
       Saint-Saëns, Camille (1835-1921). Compositeur
      </dc:creator>
+     <dc:contributor>
+      Belleau, Rémi (1528?-1577). Auteur du texte
+     </dc:contributor>
      <dc:publisher>
-      A. Durand &amp; fils (Paris)
+      Durand et C.ie, éditeurs (Paris)
      </dc:publisher>
-     <dc:description>
-      Titre uniforme : Saint-Saëns, Camille (1835-1921). Compositeur. [Canzonetta toscana]
-     </dc:description>
-     <dc:relation>
-      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb16776425j
-     </dc:relation>
      <dc:date>
-      1898
+      1921
      </dc:date>
-     <dc:identifier>
-      https://gallica.bnf.frCotage D. S. et Cie 2048
-     </dc:identifier>
-     <dc:format>
-      5 p. : couv. orn. ; 35 cm
-     </dc:format>
      <dc:relation>
-      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43252111p
+      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43252108s
      </dc:relation>
      <dc:type>
-      Genre musical : canzone
+      Genre musical : mélodie
      </dc:type>
      <dc:source>
-      Bibliothèque nationale de France, département Musique, VM7-99079
+      Bibliothèque nationale de France, département Musique, FOL-VM7-16757
      </dc:source>
      <dc:rights xml:lang="fre">
       domaine public
@@ -69,12 +57,6 @@
      <dc:format>
       Nombre total de vues :  8
      </dc:format>
-     <dc:description>
-      Mélodies acc. de piano -- +* 1800......- 1899......+:19e siècle:
-     </dc:description>
-     <dc:description>
-      Mélodies italiennes -- +* 1800......- 1899......+:19e siècle:
-     </dc:description>
     </oai_dc:dc>
    </metadata>
   </record>
@@ -83,7 +65,7 @@
   bnf.fr
  </provenance>
  <source>
-  Bibliothèque nationale de France, département Musique, VM7-99079
+  Bibliothèque nationale de France, département Musique, FOL-VM7-16757
  </source>
  <typedoc>
   partition
@@ -92,13 +74,13 @@
   0.0
  </nqamoyen>
  <title>
-  Oeuvres pour le chant. , Canzonetta toscana / par Camille Saint-Saëns
+  Avril, poésie de Rémy Belleau. Chant et piano. (Vieilles chansons)
  </title>
  <date nbIssue="1">
-  1898
+  1921
  </date>
  <first_indexation_date>
-  18/06/2023
+  30/01/2012
  </first_indexation_date>
  <streamable>
   false

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<results ResultsGenerationSearchTime="0:00:00.194" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+<results ResultsGenerationSearchTime="0:00:00.230" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
  <visibility_rights>
   all
  </visibility_rights>
@@ -7,7 +7,7 @@
   <record>
    <header>
     <identifier>
-     oai:bnf.fr:gallica/ark:/12148/bpt6k3939359
+     oai:bnf.fr:gallica/ark:/12148/bpt6k11876085
     </identifier>
     <datestamp>
      2022-06-22
@@ -19,31 +19,49 @@
    <metadata>
     <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
      <dc:identifier>
-      https://gallica.bnf.fr/ark:/12148/bpt6k3939359
+      https://gallica.bnf.fr/ark:/12148/bpt6k11876085
      </dc:identifier>
      <dc:title>
-      Avril, poésie de Rémy Belleau. Chant et piano. (Vieilles chansons)
+      Dinorah ossia Il Pellegrinaggio di Ploermel opera Seria in 3 atti, partition piano et chant avec paroles italiennes et allemandes
      </dc:title>
      <dc:creator>
-      Saint-Saëns, Camille (1835-1921). Compositeur
+      Meyerbeer, Giacomo (1791-1864). Compositeur
      </dc:creator>
-     <dc:contributor>
-      Belleau, Rémi (1528?-1577). Auteur du texte
-     </dc:contributor>
      <dc:publisher>
-      Durand et C.ie, éditeurs (Paris)
+      G. Brandus et S. Dufour (Paris)
      </dc:publisher>
-     <dc:date>
-      1921
-     </dc:date>
+     <dc:description>
+      Titre uniforme : Meyerbeer, Giacomo (1791-1864). Compositeur. [Dinorah]
+     </dc:description>
      <dc:relation>
-      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43252108s
+      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb13916288k
+     </dc:relation>
+     <dc:description>
+      Titre uniforme : Meyerbeer, Giacomo (1791-1864). Compositeur. [Dinorah]
+     </dc:description>
+     <dc:relation>
+      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb13916288k
+     </dc:relation>
+     <dc:date>
+      1859
+     </dc:date>
+     <dc:identifier>
+      https://gallica.bnf.frCotage B. et D. 10.104
+     </dc:identifier>
+     <dc:identifier>
+      https://gallica.bnf.frCotage B. et D. 10.172
+     </dc:identifier>
+     <dc:format>
+      In-8°, 350 p.
+     </dc:format>
+     <dc:relation>
+      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43153280v
      </dc:relation>
      <dc:type>
-      Genre musical : mélodie
+      Genre musical : divers
      </dc:type>
      <dc:source>
-      Bibliothèque nationale de France, département Musique, FOL-VM7-16757
+      Bibliothèque nationale de France, département Musique, VM5-1910
      </dc:source>
      <dc:rights xml:lang="fre">
       domaine public
@@ -55,7 +73,7 @@
       application/pdf
      </dc:format>
      <dc:format>
-      Nombre total de vues :  8
+      Nombre total de vues :  366
      </dc:format>
     </oai_dc:dc>
    </metadata>
@@ -65,7 +83,7 @@
   bnf.fr
  </provenance>
  <source>
-  Bibliothèque nationale de France, département Musique, FOL-VM7-16757
+  Bibliothèque nationale de France, département Musique, VM5-1910
  </source>
  <typedoc>
   partition
@@ -74,13 +92,13 @@
   0.0
  </nqamoyen>
  <title>
-  Avril, poésie de Rémy Belleau. Chant et piano. (Vieilles chansons)
+  Dinorah ossia Il Pellegrinaggio di Ploermel opera Seria in 3 atti, partition piano et chant avec paroles italiennes et allemandes
  </title>
  <date nbIssue="1">
-  1921
+  1859
  </date>
  <first_indexation_date>
-  30/01/2012
+  17/04/2019
  </first_indexation_date>
  <streamable>
   false

@@ -52,24 +52,11 @@ Chaque transcription en MEI contient également une série de metadonnées appor
 L'identifiant de l'oeuvre est indiqué dans l'élément mei/meiHead/altId
 ####title
 Le titre de l'oeuvre est indiqué dans les éléments suivants :
-+ mei
-    └──meiHead
-        └──fileDesc
-            └──titleStmt
-                └──title
++ mei/meiHead/fileDesc/titleStmt/title
 
 + mei/meiHead/fileDesc/titleStmt/title
-+ mei
-    └──meiHead
-        └──workList
-            └──work
-                └──title
-+ mei
-    └──meiHead
-        └──manifestationList
-            └──manifestation
-                └──editionStmt
-                    └──title
++ mei/meiHead/workList/work/title
++ mei/meiHead/manifestationList/manifestation/editionStmt/title
 ####compositeur
 Le compositeur de l'oeuvre est indiqué dans les éléments suivant :
 + mei/meiHead/fileDesc/titleStmt/composer

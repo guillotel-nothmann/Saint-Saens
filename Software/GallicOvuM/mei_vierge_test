@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mei meiversion="4.0.0">
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <section>
+            <measure n="1">
+              <note dur="4" pname="C" oct="4"/>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

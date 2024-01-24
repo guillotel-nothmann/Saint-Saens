@@ -30,7 +30,7 @@
           <name>GallicOvuM</name>
           <p>Metadata creation by extracting from Gallica</p>
         </application>
-        <application version="2020.1.14 (9.0.2) - 14th January, 2020">
+        <application version="9.0.2-2020.01.14">
           <name>PhotoScore &amp; NotateMe</name>
           <p>Engraving by Optical Music Recognition</p>
         </application>
@@ -41,32 +41,21 @@
     </encodingDesc>
     <manifestationList>
       <manifestation>
-        <physDesc>
-          <extent unit="pages">20</extent>
-        </physDesc>
-        <seriesStmt type="Music Genre">choeur</seriesStmt>
         <editionStmt>
-          <title>[Saltarelle. Op. 74]</title>
+          <edition>
+            <title>[Saltarelle. Op. 74]</title>
+          </edition>
           <composer>Saint-Saëns, Camille</composer>
           <lyricist>Deschamps, Émile</lyricist>
         </editionStmt>
-        <itemList>
-          <item>
-            <physLoc>
-              <repository>Bibliothèque nationale de France, département Musique, VM29-5443</repository>
-            </physLoc>
-            <relationList>
-              <relation>This MEI file C422_0 is an electronic transcription of this item</relation>
-            </relationList>
-          </item>
-        </itemList>
+        <physDesc/>
       </manifestation>
     </manifestationList>
     <revisionDesc>
       <change n="1">
-        <p>Creation of metadata by extraction from Gallica</p>
-        <date isodate="2024-01-23"/>
-        <resp>GallicOvuM</resp>
+        <changeDesc>
+          <p>Creation of metadata by extraction from Gallica with GallicOvuM<date isodate="2024-01-24"/></p>
+        </changeDesc>
       </change>
     </revisionDesc>
   </meiHead>

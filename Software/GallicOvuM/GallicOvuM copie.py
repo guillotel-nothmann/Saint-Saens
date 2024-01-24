@@ -236,7 +236,7 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom,alt_id):
     Ethis_app_p_tag = ET.SubElement(Ethis_app_tag, "p")
     Ethis_app_p_tag.text = "Metadata creation by extracting from Gallica"
     Ephotoscore_tag = ET.SubElement(app_info_tag,'application')
-    Ephotoscore_tag.set("version","2020.1.14 (9.0.2) - 14th January, 2020")
+    Ephotoscore_tag.set("version","9.0.2-2020.01.14")
     Ephotoscore_name_tag = ET.SubElement(Ephotoscore_tag, "name")
     Ephotoscore_name_tag.text = "PhotoScore & NotateMe"
     Ephotoscore_p_tag = ET.SubElement(Ephotoscore_tag, "p")
@@ -248,37 +248,29 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom,alt_id):
     #manifestationList
     manifestationList_tag= ET.SubElement(meiHead_tag,'manifestationList')
     manifestation_tag =ET.SubElement(manifestationList_tag, 'manifestation')
+    MeditionStmt_tag=ET.SubElement(manifestation_tag,"editionStmt")
+    Medition_tag=ET.SubElement(MeditionStmt_tag,"edition")
     MphysDesc_tag = ET.SubElement(manifestation_tag,'physDesc')
-    Mextent_tag= ET.SubElement(MphysDesc_tag, "extent")
-    Mextent_tag.set("unit", "pages")
-    MseriesStmt_tag=ET.SubElement(manifestation_tag,"seriesStmt")
-    MseriesStmt_tag.set("type","Music Genre")
-    MeditionStmt_tag=ET.Element("editionStmt")
-    MseriesStmt_tag.addnext(MeditionStmt_tag)
-    Mtitle_tag=ET.SubElement(MeditionStmt_tag,"title")
+    
+    Mtitle_tag=ET.SubElement(Medition_tag,"title")
     Mcomposer_tag=ET.SubElement(MeditionStmt_tag, "composer")
     MitemList_tag=ET.Element("itemList")
-    MeditionStmt_tag.addnext(MitemList_tag)
     Mitem_tag=ET.SubElement(MitemList_tag,"item")
     MphysLoc_tag=ET.SubElement(Mitem_tag, "physLoc")
     Mrepository_tag=ET.SubElement(MphysLoc_tag,"repository")
-    MrelationList_tag=ET.Element('relationList')
-    MphysLoc_tag.addnext(MrelationList_tag)
-    Mrelation_tag=ET.SubElement(MrelationList_tag,"relation")
-    Mrelation_tag.text="This MEI file "+os.path.splitext(os.path.basename(gmei_file))[0]+ " is an electronic transcription of this item"
+
 
     #revisionDesc
     revisionDesc_tag=ET.SubElement(meiHead_tag,"revisionDesc")
     change_tag=ET.SubElement(revisionDesc_tag,"change")
     change_tag.set("n",str(1))
+    changeDesc=ET.SubElement(change_tag,"changeDesc")
+    revisions_p_tag = ET.SubElement(changeDesc, "p")
+    revisions_p_tag.text="Creation of metadata by extraction from Gallica with GallicOvuM"
 
-    revisions_p_tag = ET.SubElement(change_tag, "p")
-    revisions_p_tag.text="Creation of metadata by extraction from Gallica"
-
-    revision_date_tag = ET.SubElement(change_tag, "date")
+    revision_date_tag = ET.SubElement(revisions_p_tag, "date")
     revision_date_tag.set("isodate", str(datetime.datetime.now().strftime("%Y-%m-%d") ))
-    revision_resp_tag = ET.SubElement(change_tag, "resp")
-    revision_resp_tag.text = "GallicOvuM"
+
    
 
     # --- récupération des data ---
@@ -308,22 +300,11 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom,alt_id):
                 nbr_page_index = result["dc:format"].index(element)
                 nbr_page = result["dc:format"][nbr_page_index]
                 nbr_page = nbr_page[nbr_page.find(":")+1:].strip()
-                Mextent_tag.text=nbr_page
+                
         
-
-    if "dc:type" in result:
-        if result["dc:type"] == list:
-            le_type = result["dc:type"][0]
-            dot = le_type.find(":")
-            le_type = le_type[dot:].strip()
-        else:
-            le_type = result["dc:type"]
-            dot = le_type.find(":")
-            le_type = le_type[dot+1:].strip()
             
 
-        MseriesStmt_tag.text=le_type
-        print("Letype =", le_type)
+   
 
     if "dc:source" in result:
         source = result["dc:source"]

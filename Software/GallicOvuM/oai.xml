@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<results ResultsGenerationSearchTime="0:00:00.012" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+<results ResultsGenerationSearchTime="0:00:00.018" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
  <visibility_rights>
   all
  </visibility_rights>
@@ -7,10 +7,10 @@
   <record>
    <header>
     <identifier>
-     oai:bnf.fr:gallica/ark:/12148/bpt6k1162067v
+     oai:bnf.fr:gallica/ark:/12148/bd6t54169441s
     </identifier>
     <datestamp>
-     2022-06-22
+     2023-06-16
     </datestamp>
     <setSpec>
      gallica:typedoc:partitions
@@ -19,43 +19,49 @@
    <metadata>
     <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
      <dc:identifier>
-      https://gallica.bnf.fr/ark:/12148/bpt6k1162067v
+      https://gallica.bnf.fr/ark:/12148/bd6t54169441s
+     </dc:identifier>
+     <dc:identifier>
+      https://gallica.bnf.frNUMS-104169441
      </dc:identifier>
      <dc:title>
-      Alla riva del Tebro : madrigal / [de] Palestrina ; transcrit avec accompagnement de piano par C. Saint-Saëns
+      Saltarelle : [choeur pour 4 voix d'hommes], op. 74 / poésie de Émile Deschamps ; musique de C. Saint-Saëns
      </dc:title>
      <dc:creator>
       Saint-Saëns, Camille (1835-1921). Compositeur
      </dc:creator>
      <dc:contributor>
-      Palestrina, Giovanni Pierluigi da (1525?-1594). Compositeur de l'oeuvre adaptée
+      Deschamps, Émile (1791-1871). Auteur du texte
      </dc:contributor>
      <dc:publisher>
-      A. Durand &amp; fils (Paris)
+      Durand, Schoenewerk &amp; Cie (Paris)
      </dc:publisher>
      <dc:description>
-      Titre uniforme : Saint-Saëns, Camille (1835-1921). Compositeur. [Alla riva del Tebro]
+      Titre uniforme : Saint-Saëns, Camille (1835-1921). Compositeur. [Saltarelle. Op. 74]
      </dc:description>
      <dc:relation>
-      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb167764811
+      Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb13965875p
      </dc:relation>
      <dc:date>
-      1899
+      1885
      </dc:date>
      <dc:identifier>
-      https://gallica.bnf.frCotage D. &amp; F. 5550
+      https://gallica.bnf.frCotage D.S. &amp; Cie 3510
      </dc:identifier>
+     <dc:description>
+      Présentation musicale : [Partition]
+     </dc:description>
      <dc:format>
-      3 p. ; 35 cm
+      1 partition (18 p.) ; 28 cm
      </dc:format>
      <dc:relation>
-      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43187704q
+      Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb45531080c
      </dc:relation>
      <dc:type>
-      Genre musical : madrigal
+      Genre musical : choeur
      </dc:type>
      <dc:source>
-      Exemplaire localisé à la Médiathèque Hector Berlioz (CNSMDP), D-9658 (3)
+      Bibliothèque nationale de France, département Musique, VM29-5443
      </dc:source>
      <dc:rights xml:lang="fre">
       domaine public
@@ -67,13 +73,10 @@
       application/pdf
      </dc:format>
      <dc:format>
-      Nombre total de vues :  4
+      Nombre total de vues :  20
      </dc:format>
      <dc:description>
-      Mélodies acc. de piano -- +* 1800......- 1899......+:19e siècle:
-     </dc:description>
-     <dc:description>
-      Mélodies italiennes -- +* 1800......- 1899......+:19e siècle:
+      Choeurs profanes (voix d'hommes, 4 voix)  -- a cappella -- +* 1800......- 1899......+:19e siècle: -- +* 1800......- 1899......+:19e siècle:
      </dc:description>
     </oai_dc:dc>
    </metadata>
@@ -83,7 +86,7 @@
   bnf.fr
  </provenance>
  <source>
-  Exemplaire localisé à la Médiathèque Hector Berlioz (CNSMDP), D-9658 (3)
+  Bibliothèque nationale de France, département Musique, VM29-5443
  </source>
  <typedoc>
   partition
@@ -92,13 +95,13 @@
   0.0
  </nqamoyen>
  <title>
-  Alla riva del Tebro : madrigal / [de] Palestrina ; transcrit avec accompagnement de piano par C. Saint-Saëns
+  Saltarelle : [choeur pour 4 voix d'hommes], op. 74 / poésie de Émile Deschamps ; musique de C. Saint-Saëns
  </title>
  <date nbIssue="1">
-  1899
+  1885
  </date>
  <first_indexation_date>
-  20/10/2014
+  18/06/2023
  </first_indexation_date>
  <streamable>
   false

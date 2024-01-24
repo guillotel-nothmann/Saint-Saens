@@ -10,39 +10,53 @@ import datetime
 
 ns = {"mei": "http://www.music-encoding.org/ns/mei",
        "xml": "http://www.w3.org/XML/1998/namespace"}
-utfx = "utf-8"
+utfx = "UTF-8"
 
-#liste_ark=
+arks = [('https://gallica.bnf.fr/ark:/12148/bd6t54169441s','C422_0')]
 
 
 
-def file_creator(content):
-    root = ET.Element("mei", xmlns="http://www.music-encoding.org/ns/mei", meiversion="5.0")
-    music = ET.SubElement(root, "music")
-    tree = ET.ElementTree(root)
+def file_creator(arks):
+    for ark in arks:
+        nom = ark[1] + '.mei'
+        root = ET.Element("mei", xmlns="http://www.music-encoding.org/ns/mei", meiversion="5.0")
+        meiHead= ET.SubElement(root,"meiHead")
+        fileDesc_tag= ET.SubElement(meiHead,"fileDesc")
+        fileDesc_titleStmt = ET.SubElement(fileDesc_tag,"titleStmt")
+        encodingDesc_tag = ET.SubElement(meiHead, "encodingDesc")
+        ET.SubElement(encodingDesc_tag, "appInfo")
+        ET.SubElement(fileDesc_titleStmt, "title")
+        ET.SubElement(fileDesc_titleStmt, "respStmt")
+        ET.SubElement(root, "music")
+        
+        
 
-    with open("mei_vierge_test.mei", 'w', encoding='utf-8') as fichier:
-        fichier.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-        fichier.write('<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>\n')
-        fichier.write('<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>\n')
-        fichier.write(ET.tostring(root, encoding='utf-8', pretty_print=True).decode('utf-8'))
+        tree = ET.ElementTree(root)
 
-   # Ajout des instructions de traitement XML
+        with open(nom, 'w', encoding='UTF-8') as fichier:
+            fichier.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+            fichier.write('<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>\n')
+            fichier.write('<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>\n')
+            fichier.write(ET.tostring(root, encoding='utf-8', pretty_print=True).decode('UTF-8'))
+            xpath = os.path.abspath(nom)
+            
+        arkyer(xpath, ark_purification(ark[0]),"Aurélien","Balland Chatignon","Aurélien","Balland Chatignon",ark[1])
+
+   # Suite
+ 
   
 
     # Création de l'élément music
 
     
     # Enregistrement du fichier XML
-    tree = ET.ElementTree(root)
     
 
 
     #with open("mei_vierge_test", 'wb', encoding=utfx) as file:
       #  file.write(root)
 
-file_creator("Ceci est le premier test")
-print("test réalisé")
+
 #Les fonctions
 
 def a_propos():
@@ -117,17 +131,17 @@ def find_mei():
    global mei_file 
    mei_file.set(askopenfilename())
 
-def arkyer(gmei_file, ark, Gprenom,Gnom,Eprenom,Enom):
+def arkyer(gmei_file, ark, Gprenom,Gnom,Eprenom,Enom,alt_id="C000_0"):
     #arkyer prend l'ark et l'insère dans le fichier MEI.
     global mei_file
     parser = ET.XMLParser(remove_blank_text=True)
     tree = ET.parse(gmei_file, parser)
 
-    meiHead_tag = tree.find(".//mei:meiHead", ns)
+    fileDesc_tag = tree.find(".//mei:fileDesc", ns)
 
     pubStmt = tree.find(".//mei:pubStmt", ns)
     if pubStmt is None:
-        pubStmt = ET.SubElement(meiHead_tag, "pubStmt")
+        pubStmt = ET.SubElement(fileDesc_tag, "pubStmt")
     print(pubStmt)
     
     sourceDesc_tag = ET.Element("sourceDesc")
@@ -140,7 +154,7 @@ def arkyer(gmei_file, ark, Gprenom,Gnom,Eprenom,Enom):
     tree.write(gmei_file, pretty_print=True, encoding=utfx)
     mei_file.set("Aucun fichier sélectionné")
     link_entry.delete(0, tk.END)
-    extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom)
+    extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom,alt_id)
 
 def analyse(ark):
       #analyse permet de voir les meta-données d'un ark sans les inscrire dans un fichier.
@@ -167,7 +181,7 @@ def clean_tag(tree, tag):
         x_element = tree.find(tag)
 
 
-def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
+def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom,alt_id):
     #fonction principale de ce script. extract_data va puiser les metadonnées depuis gallica pour les inscrire dans le fichier MEI.
 
     print("le lien =", ark)
@@ -176,9 +190,6 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
 
     parser = ET.XMLParser(remove_blank_text=True)
     tree = ET.parse(gmei_file, parser)
-
-    #Supprimmer des balises potentiellement preexistante
-    #clean_tag(tree, "lyricist")
 
     #trouver les differents éléments preexistants
     bibl_tag = tree.find(".//mei:bibl", ns)
@@ -208,16 +219,6 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     FTengraved_resp_tag.text="Engraved by:"
     FTengraved_name_tag = ET.SubElement(FTrespStmt_tag,"name")
     FTengraved_name_tag.text = Gnom+", "+ Gprenom
-    #F-Edition
-    FEeditionStmt_tag = ET.SubElement(FTtitleStmt_tag,'editionStmt')
-    FErespStmt_tag = ET.SubElement(FEeditionStmt_tag,'respStmt')
-    FEpersName_tag=ET.SubElement(FErespStmt_tag, "persName")
-    FEpersName_tag.set("role","Editor")
-    FEedition_tag = ET.SubElement(FEeditionStmt_tag,'edition')
-    FEdate_tag=ET.SubElement(FEedition_tag,"date")
-    #F-Extent
-    FXextent_tag=ET.SubElement(FTtitleStmt_tag,'extent')
-    FXextent_tag.set("unit", "pages")
 
     #encodindDesc
     encodingDesc_tag = tree.find(".//mei:encodingDesc", ns)
@@ -226,10 +227,10 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     if Eapplication_sibmei_tag is not None:
         Esibmei_p_tag = ET.SubElement(Eapplication_sibmei_tag, 'p')
         Esibmei_p_tag.text = "Export to the Music Encoding Initiative (MEI) Format"
-    #On ajoute la mention de cette application
+    #On ajoute la mention de l'application GallicOvuM
     app_info_tag = tree.find('.//mei:appInfo', ns)
     Ethis_app_tag = ET.SubElement(app_info_tag,'application')
-    Ethis_app_tag.set("version","1.0")
+    Ethis_app_tag.set("version","2.0")
     Ethis_app_name_tag = ET.SubElement(Ethis_app_tag, "name")
     Ethis_app_name_tag.text="GallicOvuM"
     Ethis_app_p_tag = ET.SubElement(Ethis_app_tag, "p")
@@ -241,17 +242,8 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     Ephotoscore_p_tag = ET.SubElement(Ephotoscore_tag, "p")
     Ephotoscore_p_tag.text = "Engraving by Optical Music Recognition"
     EprojectDesc_tag=ET.SubElement(encodingDesc_tag,"projectDesc")
-    EprojectDesc_tag.text="ANR CollabScore (https://anr.fr/Projet-ANR-20-CE27-0014) - IReMus UMR 8223  Aurélien Balland Chatignon, Thomas Bottini, Christophe Guillotel-Nothmann, Fabien Guilloux, Simon Raguet."
-
-    #workList
-    workList_tag = find_tag(tree,"workList", ns)
-    work_tag = find_tag(tree,"work", ns)
-    Wtitle_tag=ET.SubElement(work_tag,'title')
-    Wcomposer_tag = ET.Element("composer")
-    Wtitle_tag.addnext(Wcomposer_tag)
-    Wcreation_tag = ET.Element("creation")
-    Wcomposer_tag.addnext(Wcreation_tag)
-    Wdate_tag = ET.SubElement(Wcreation_tag,"date")
+    EprojectDesc_tag_p=ET.SubElement(EprojectDesc_tag,"p")
+    EprojectDesc_tag_p.text="ANR CollabScore (https://anr.fr/Projet-ANR-20-CE27-0014) - IReMus UMR 8223  Aurélien Balland Chatignon, Thomas Bottini, Christophe Guillotel-Nothmann, Fabien Guilloux, Simon Raguet."
 
     #manifestationList
     manifestationList_tag= ET.SubElement(meiHead_tag,'manifestationList')
@@ -292,7 +284,7 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     # --- récupération des data ---
 
     #indexCollabscore
-    altId_tag.text = os.path.splitext(os.path.basename(gmei_file))[0]
+    altId_tag.text = alt_id
 
     #compositeur
     if "dc:creator" in result:
@@ -303,14 +295,11 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
         else:
             composer = composer[:composer.find("(")].strip()
         FTcomposer_tag.text = composer
-        Wcomposer_tag.text = composer
         Mcomposer_tag.text=composer
 
     #date
     if "dc:date" in result:
         date = result["dc:date"].strip()
-        FEdate_tag.text = date
-        Wdate_tag.text = date
 
     if "dc:format" in result:
         #nombre de pages
@@ -319,7 +308,6 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
                 nbr_page_index = result["dc:format"].index(element)
                 nbr_page = result["dc:format"][nbr_page_index]
                 nbr_page = nbr_page[nbr_page.find(":")+1:].strip()
-                FXextent_tag.text = nbr_page
                 Mextent_tag.text=nbr_page
         
 
@@ -354,7 +342,6 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
     else:
         titre = result["dc:title"]
     FTtitle_tag.text = titre
-    Wtitle_tag.text=titre
     Mtitle_tag.text=titre
 
     print("titre=", titre)
@@ -363,8 +350,7 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
         #l'éditeur
     if "dc:publisher" in result:
         editor = result["dc:publisher"].strip()
-        FEedition_tag.text = editor
-        FEpersName_tag.text = editor
+
         
     if "dc:contributor" in result:
         #lyrilist est une liste contenant toutes les occurrences differentes sous laquelle un auteur peut être appellé sur gallica
@@ -387,7 +373,6 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
                     Wlyricist_tag.text = lyricist
                     Mlyricist_tag.text = lyricist
                     FTcomposer_tag.addnext(FTlyricist_tag)
-                    Wcomposer_tag.addnext(Wlyricist_tag)
                     Mcomposer_tag.addnext(Mlyricist_tag)
                     FTcontributeur_tag=ET.SubElement(FTrespStmt_tag,'persName')
                     FTcontributeur_tag.set("role", role)
@@ -414,7 +399,6 @@ def extract_data(ark, gmei_file, Gprenom,Gnom,Eprenom,Enom):
                 Wlyricist_tag.text = lyricist
                 Mlyricist_tag.text = lyricist
                 FTcomposer_tag.addnext(FTlyricist_tag)
-                Wcomposer_tag.addnext(Wlyricist_tag)
                 Mcomposer_tag.addnext(Mlyricist_tag)
                 print("b : ", role," et " ,lyricist)
                 FTcontributeur_tag=ET.SubElement(FTrespStmt_tag,'persName')
@@ -504,6 +488,8 @@ action_button.grid(row=5, column=0, padx=5, pady=5, sticky="w")
 frame_encodeur.grid(row=2, column=1, padx=5, pady=5, sticky="w")
 frame_Graveur.grid(row=2, column=0, padx=5, pady=5, sticky="w")
 
+file_creator(arks)
+print("test réalisé")
 
 root.mainloop()
 
